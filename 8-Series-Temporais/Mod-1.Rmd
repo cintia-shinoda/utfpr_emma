@@ -12,10 +12,22 @@ output:
 ## Módulo 1 - Caracterização e Decomposição de uma Série Temporal
 
 [Gravação da Aula 01 - parte 1](https://drive.google.com/file/d/1jKegswYK8uB6ZNEIRPK7Hr3UUXhfCczu/view)
+
 [Gravação da Aula 01 - parte 2](https://drive.google.com/file/d/1KAAf01NgD5x5RU-osL9NNQhxC1nL-Ysk/view)
 
 <br>
 <br>
+
+### Leituras Recomendadas:
+- Fenômenos típicos de séries temporais: SOUSA, A. R. S.; SILVA, C.; SILVA, J. S. F.; et al. Análise de séries temporais. Porto Alegre: SAGAH, 2021. pág.16-19. Disponível em: https://webapp.utfpr.edu.br/bibservices/minhaBiblioteca?ISBN=9786556902876/
+
+- Tendência e Sazonalidade: MORETIN, P. A.; TOLOI, C.M.C. Análise de séries temporais – Vol I, 3ed. São Paulo: Editora Blucher, 2018. pág.70-83. Disponível em: https://webapp.utfpr.edu.br/bibservices/minhaBiblioteca?ISBN=9788521215349/
+
+<br>
+<br>
+
+
+23min
 
 
 
@@ -23,8 +35,5 @@ output:
 
 ```
 
-### Leituras Recomendadas:
-- Fenômenos típicos de séries temporais: SOUSA, A. R. S.; SILVA, C.; SILVA, J. S. F.; et al. Análise de séries temporais. Porto Alegre: SAGAH, 2021. pág.16-19. Disponível em: https://webapp.utfpr.edu.br/bibservices/minhaBiblioteca?ISBN=9786556902876/
 
-- Tendência e Sazonalidade: MORETIN, P. A.; TOLOI, C.M.C. Análise de séries temporais – Vol I, 3ed. São Paulo: Editora Blucher, 2018. pág.70-83. Disponível em: https://webapp.utfpr.edu.br/bibservices/minhaBiblioteca?ISBN=9788521215349/
 
