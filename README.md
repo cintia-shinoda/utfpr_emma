@@ -17,7 +17,7 @@
 |  |  | # | Data | Disciplina |
 |:---:|:---:|:---:|:---:|:---|
 | &check; |  | 01 | 01/06/2024 | Cálculo de Funções de Uma Variável Real - 1 |
-|  |  | 02 | 08/06/2024 | Cálculo de Funções de uma Variável Real - 2 |
+| &check; |  | 02 | 08/06/2024 | Cálculo de Funções de uma Variável Real - 2 |
 |  |  | 03 | 15/06/2024 | Cálculo de Funções de uma Variável Real - 3 |
 |  |  | 04 | 22/06/2024 | Equações Diferenciais Ordinárias - 1 |
 |  |  | 05 | 29/06/2024 | Equações Diferenciais Ordinárias - 2 |
