@@ -23,7 +23,7 @@
 | &check; |  | 04 | 22/06/2024 | Equações Diferenciais Ordinárias - 1 |
 | &check; |  | 05 | 29/06/2024 | Equações Diferenciais Ordinárias - 2 |
 | &check; |  | 06 | 06/07/2024 | Equações Diferenciais Ordinárias - 3 |
-|  |  | 07 | 13/07/2024 | Análise Multivariada - 1 |
+| &check; |  | 07 | 13/07/2024 | Análise Multivariada - 1 |
 |  |  | 08 | 20/07/2024 | Análise Multivariada - 2 |
 |  |  | 09 | 27/07/2024 | Análise Multivariada - 3 |
 |  |  | 10 | 03/08/2024 | Iniciação à Programação Linear - 1 |

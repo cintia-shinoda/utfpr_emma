@@ -1,0 +1,11 @@
+---
+title: "Aula 01"
+output: html_notebook
+---
+
+## Módulo 1 - Vetores Aleatórios
+
+```{r}
+
+```
+
