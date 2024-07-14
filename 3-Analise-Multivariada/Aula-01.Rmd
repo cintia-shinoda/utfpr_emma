@@ -5,7 +5,18 @@ output: html_notebook
 
 ## Módulo 1 - Vetores Aleatórios
 
+
+### 1.1 - Variável Aleatória
+
+
+### 1.2 - Vetor Aleatórios
+
 ```{r}
 
 ```
 
+
+## Módulo 2 - Estimação de Parâmetros em Distribuições Multivariadas
+
+
+## Módulo 3 - Análise de Componentes Principais
