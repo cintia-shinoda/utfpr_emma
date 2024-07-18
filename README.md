@@ -1,11 +1,13 @@
 # Especialização em Métodos Matemáticos Aplicados
 
+
 ## Disciplinas
 
 |  | # | Disciplina | Professor(a) | Média |
 |:---:|:---:|:---|:---|:---:|
 |  | 01 | Cálculo de Funções de Uma Variável Real | Edson Luiz Valmorbida |  |
-|  | 02 | Equações Diferenciais Ordinárias |  |
+|  | 02 | Equações Diferenciais Ordinárias | Camila Nicola Boeri di Domenico |
+|  | 03 | Análise Multivariada | Sheila Regina Oro |
 
 
 -----
