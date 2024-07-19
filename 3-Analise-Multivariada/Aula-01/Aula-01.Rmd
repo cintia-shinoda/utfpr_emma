@@ -1,6 +1,6 @@
 ---
 title: "Aula 01"
-output: github_document
+output: html_document
 ---
 
 [Gravação da Aula 01](https://drive.google.com/file/d/1_ilykBsFdumWUR0nIw4zkF5dInzUDbVI/view?usp=drivesdk)
