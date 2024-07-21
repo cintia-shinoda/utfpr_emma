@@ -1,6 +1,8 @@
 ---
-title: "Aula 01"
-output: html_document
+title: "R Notebook"
+output:
+  html_document:
+    df_print: paged
 ---
 
 [Gravação da Aula 01](https://drive.google.com/file/d/1_ilykBsFdumWUR0nIw4zkF5dInzUDbVI/view?usp=drivesdk)
@@ -102,6 +104,3 @@ plot(coxinha)
 ## Módulo 2 - Estimação de Parâmetros em Distribuições Multivariadas
 
 ## Módulo 3 - Análise de Componentes Principais
-
-
-
