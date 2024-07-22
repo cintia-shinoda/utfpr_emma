@@ -1,0 +1,24 @@
+---
+title: "Avaliação 1 - Vetores Aleatórios"
+output:
+  html_document:
+    df_print: paged
+---
+
+
+
+```{r}
+# criando Matriz de Covariâncias
+
+S <- matrix(c(64.96, -47.22, -17.74, 1.58,
+              -47.22, 38.8, 8.42, -1.62,
+              -17.74, 8.42, 9.31, 0.04,
+              1.58, -1.62, 0.04, 0.68),
+            nrow=4, byrow=TRUE)
+
+S
+
+# Autovalores
+autovalores <- eigen(S)$values
+autovalores
+```

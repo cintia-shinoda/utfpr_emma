@@ -101,6 +101,45 @@ R
 plot(coxinha)
 ```
 
+```{r}
+# Decomposição da Matriz de Covariâncias
+
+D <- eigen(S)
+sum(D$values)  #variância total (soma das variâncias)
+```
+
+```{r}
+# Variância Generalizada
+
+det(S)
+```
+
+```{r}
+# Desvio-Padrão Generalizado
+
+sqrt(det(S))
+```
+
+```{r}
+# Autovalores
+
+D$values
+```
+
+```{r}
+# Autovetores
+
+D$vectors
+```
+
+
+<br>
+<br>
+<br>
+
+---
 ## Módulo 2 - Estimação de Parâmetros em Distribuições Multivariadas
+
+
 
 ## Módulo 3 - Análise de Componentes Principais

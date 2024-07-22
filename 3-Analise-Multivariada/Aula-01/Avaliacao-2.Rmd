@@ -1,0 +1,35 @@
+---
+title: "Avaliação 2 - Estimação"
+output:
+  html_document:
+    df_print: paged
+---
+
+</br>
+</br>
+
+
+Seja $\sum$ uma matriz de covariâncias populacional de ordem p. 
+
+Na prática, em geral, não a conhecemos e precisamos estimá-la por meio da matriz de covariâncias amostrais $S$, de mesma ordem.
+
+Apresente a fórmula do estimador da covariância amostral entre a i-ésima e j-ésima variáveis.
+
+<br>
+<br>
+
+
+
+$$S_{ij} = \frac{1}{n-1} \sum_{k=1}^n (x_{ki} - \bar{x}_i)(x_{kj} - \bar{x}_j)$$
+
+Onde: 
+
+$n$ = número de observações
+
+$x_{ki}$ = valor da k-ésima observação da i-ésima variável
+
+$x_{kj}$ = valor da k-ésima observação da j-ésima variável
+
+$\bar{x}_i$ = média amostral da i-ésima variável
+
+$\bar{x}_j$ = média amostral da j-ésima variável
