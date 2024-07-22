@@ -11,7 +11,7 @@
 
 
 
-<title>Avaliação 1 - Vetores Aleatórios</title>
+<title>Aula 02 - Análise Fatorial</title>
 
 <script>// Pandoc 2.9 adds attributes on both header and div. We remove the former (to
 // be compatible with the behavior of Pandoc < 2.8).
@@ -1619,39 +1619,17 @@ display: none;
 
 
 
-<h1 class="title toc-ignore">Avaliação 1 - Vetores Aleatórios</h1>
+<h1 class="title toc-ignore">Aula 02 - Análise Fatorial</h1>
 
 </div>
 
 
+<p><br> <br> <br></p>
+<p><a href>Gravação da Aula 01</a></p>
 <p><br> <br></p>
-<p>Obtenha os autovalres da seguinte matriz de covariâncias: <br>
-<br></p>
-<p><span class="math display">\[S = \begin{pmatrix}
-  64.96 &amp; -47.22 &amp; -17.74 &amp; 1.58 \\
-  -47.22 &amp; 38.8 &amp; 8.42 &amp; -1.62 \\
-  -17.74 &amp; 8.42 &amp; 9.31 &amp; 0.04 \\
-  1.58 &amp; -1.62 &amp; 0.04 &amp; 0.68
-\end{pmatrix} \]</span></p>
-<p><br> <br> <br> <br> <br></p>
-<pre class="r"><code># criando Matriz de Covariâncias
-
-S &lt;- matrix(c(64.96, -47.22, -17.74, 1.58,
-              -47.22, 38.8, 8.42, -1.62,
-              -17.74, 8.42, 9.31, 0.04,
-              1.58, -1.62, 0.04, 0.68),
-            nrow=4, byrow=TRUE)
-
-S</code></pre>
-<pre><code>##        [,1]   [,2]   [,3]  [,4]
-## [1,]  64.96 -47.22 -17.74  1.58
-## [2,] -47.22  38.80   8.42 -1.62
-## [3,] -17.74   8.42   9.31  0.04
-## [4,]   1.58  -1.62   0.04  0.68</code></pre>
-<pre class="r"><code># Autovalores
-autovalores &lt;- eigen(S)$values
-autovalores</code></pre>
-<pre><code>## [1] 104.799641586   8.365323153   0.588371274  -0.003336014</code></pre>
+<div id="módulo-4---análise-fatorial" class="section level2">
+<h2>Módulo 4 - Análise Fatorial</h2>
+</div>
 
 
 

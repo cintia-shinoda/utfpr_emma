@@ -1,11 +1,19 @@
 ---
-title: "R Notebook"
+title: "Aula 01 - Vetores Aleatórios, Estimação de Parâmetrso em Distribuições Multivariadas e Análise de Componentes Principais"
 output:
   html_document:
     df_print: paged
 ---
 
+<br>
+<br>
+<br>
+
 [Gravação da Aula 01](https://drive.google.com/file/d/1_ilykBsFdumWUR0nIw4zkF5dInzUDbVI/view?usp=drivesdk)
+
+<br>
+<br>
+
 
 ## Módulo 1 - Vetores Aleatórios
 
