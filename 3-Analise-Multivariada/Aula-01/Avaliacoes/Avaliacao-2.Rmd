@@ -5,8 +5,8 @@ output:
     df_print: paged
 ---
 
-</br>
-</br>
+<br>
+<br>
 
 
 Seja $\sum$ uma matriz de covariâncias populacional de ordem p. 

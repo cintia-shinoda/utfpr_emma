@@ -1,0 +1,14 @@
+---
+title: "Avaliação 3 - ACP"
+output:
+  html_document:
+    df_print: paged
+---
+
+<br>
+<br>
+
+
+
+<br>
+<br>
