@@ -1,7 +1,8 @@
 ---
 title: "Avaliação 3 - Anáise de Componentes Principais"
 output:
-  github_document:
+  pdf_document: default
+  html_document:
     df_print: paged
 ---
 
