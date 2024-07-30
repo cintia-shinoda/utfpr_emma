@@ -87,6 +87,7 @@ library(readxl)
 coxinha <- read_excel("coxinha.xlsx")
 
 summary(coxinha) # resumo numérico
+class(coxinha)
 ```
 
 ```{r}

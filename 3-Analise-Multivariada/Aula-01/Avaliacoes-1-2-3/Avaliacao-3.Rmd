@@ -1,0 +1,118 @@
+---
+title: "Avaliação 3 - Anáise de Componentes Principais"
+output:
+  github_document:
+    df_print: paged
+---
+
+<br>
+<br>
+
+Apresente e comente em detalhes os resultados.
+
+Na avaliação serão consideradas a exatidão dos resultados, a coerência e a correção das interpretações. 
+
+As respostas devem ser registradas exclusivamente na sequência do enunciado do problema. 
+
+Para entregar, salve o arquivo em formato PDF.
+<br>
+<br>
+
+Para resolver o problema a seguir, use como base os conteúdos abordados nas aulas, os materiais suplementares e utilize o apoio do software R.
+<br>
+<br>
+
+A Tabela 6.7 mostra estimativas do consumo médio de proteínas de diferentes fontes de alimentos para os habitantes de 25 países europeus como publicado por Weber (1973). 
+
+a.	Obtenha e interprete a matriz de covariâncias.
+
+b.	Obtenha e interprete a matriz de correlações.
+
+c.	Aplique a análise de componentes principais para investigar o relacionamento entre os países com base nestas variáveis. 
+
+d.	Interprete as duas primeiras componentes obtidas.
+
+
+```{r}
+
+data <- data.frame(
+  Carne_Vermelha = c(10, 9, 14, 8, 10, 11, 8, 10, 18, 10, 5, 14, 9, 10, 9, 7, 6, 6, 7, 10, 13, 17, 9, 11, 4),
+  Carne_Branca = c(1, 14, 9, 6, 11, 11, 12, 5, 10, 3, 12, 10, 5, 14, 5, 10, 4, 6, 3, 8, 10, 6, 5, 13, 5),
+  Ovos = c(1, 4, 4, 2, 3, 4, 4, 3, 3, 3, 3, 5, 3, 4, 3, 3, 1, 2, 3, 4, 3, 5, 2, 4, 1),
+  Leite = c(9, 20, 18, 8, 13, 25, 11, 34, 20, 18, 10, 26, 14, 23, 23, 19, 5, 11, 9, 25, 24, 21, 17, 19, 10),
+  Peixe = c(0, 2, 5, 1, 2, 10, 5, 6, 6, 6, 0, 2, 3, 3, 10, 3, 14, 1, 7, 8, 2, 4, 3, 3, 1),
+  Cereais = c(42, 28, 27, 57, 34, 22, 25, 26, 28, 42, 40, 24, 37, 22, 23, 36, 27, 50, 29, 20, 26, 24, 44, 19, 56),
+  Carboidratos = c(1, 4, 6, 1, 5, 5, 7, 5, 5, 2, 4, 6, 2, 4, 5, 6, 6, 3, 6, 4, 3, 5, 6, 5, 3),
+  Graos = c(6, 1, 2, 4, 1, 1, 1, 1, 2, 8, 5, 2, 4, 2, 2, 2, 5, 5, 6, 1, 2, 3, 3, 2, 6),
+  Frutas_Vegetais = c(2, 4, 4, 4, 4, 2, 4, 1, 7, 7, 4, 3, 7, 4, 3, 7, 8, 3, 7, 2, 5, 3, 3, 4, 3)
+)
+
+rownames(data) <- c("Albania", "Austria", "Belgica", "Bulgaria", "Tchecoslovaquia", "Dinamarca", "Alemanha_Ocidental", "Finlandia", "Franca", "Grecia", "Hungria", "Irlanda", "Italia", "Paises_Baixos", "Noruega", "Polonia", "Portugal", "Romenia", "Espanha", "Suecia", "Suica", "Reino_Unido", "URSS", "Alemanha_Oriental", "Iugoslavia")
+```
+
+</br>
+</br>
+
+a.
+
+```{r}
+# Matriz de Covariâncias
+
+matriz_cov <- cov(data)
+matriz_cov
+```
+
+
+
+
+</br>
+</br>
+
+
+b.
+```{r}
+# Matriz de Correlações
+
+#install.packages("corrr")
+#library(corrr)
+#install.packages("ggcorrplot")
+#library(ggcorrplot)
+#install.packages("FactoMineR")
+#library(FactoMineR)
+#install.packages("factoextra")
+#library(factoextra)
+
+matriz_cor <- cor(data)
+matriz_cor
+
+corr_matrix <- cor(data)
+ggcorrplot::ggcorrplot(corr_matrix, lab = TRUE)
+```
+
+
+</br>
+</br>
+
+
+c.
+```{r}
+r.pca <- princomp(matriz_cor)
+summary(r.pca)
+```
+
+```{r}
+r.pca$loadings[, 1:2]
+
+```
+
+```{r}
+#fviz_eig(r.pca, addlabels = TRUE)
+```
+
+</br>
+</br>
+
+
+d.
+
+

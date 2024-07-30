@@ -1,7 +1,7 @@
 ---
 title: "Avaliação 1 - Vetores Aleatórios"
 output:
-  html_document:
+  github_document:
     df_print: paged
 ---
 
