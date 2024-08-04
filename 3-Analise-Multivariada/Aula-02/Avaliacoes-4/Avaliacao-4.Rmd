@@ -1,0 +1,148 @@
+---
+title: "Avaliação 4 - Análise Fatorial - Parte 2"
+output:
+  pdf_document: default
+  html_document:
+    df_print: paged
+---
+
+```{r}
+dados <- data.frame(
+  Ca = c(2.3, 2.5, 1.8, 3.4, 1.8, 3.7, 1.4, 1.5, 2.8, 1.4, 1.8, 1.9, 2.8),
+  Mg = c(1.7, 2.5, 2.1, 2.5, 1.1, 1.4, 0.7, 0.6, 2.2, 0.8, 0.6, 1.7, 0.8),
+  SB = c(4.1, 5.1, 4.1, 6.1, 3.0, 5.2, 2.2, 2.2, 5.1, 2.3, 2.5, 3.7, 3.7),
+  ts = c(7.5, 7.4, 6.4, 8.4, 6.5, 8.5, 4.7, 4.0, 9.0, 3.7, 7.2, 6.0, 5.9)
+)
+
+dados
+```
+
+</br>
+</br>
+
+## a. Matriz de correlações
+
+```{r}
+matriz_correlacoes <- cor(dados)
+matriz_correlacoes
+```
+
+```{r}
+library(corrplot)
+
+corrplot(matriz_correlacoes, method = "number", type = "upper")
+```
+
+A correlação entre Ca e SB é alta, sugerindo que essas variáveis estão relacionadas fortemente.
+Já a correlação entre Ca e Mg é moderada, sugerindo que essas variáveis estão relacionadas, mas de forma menos intensa.
+
+</br>
+</br>
+
+
+## b. Viabilidade da Análise Fatorial
+
+```{r}
+library(psych)
+
+bartlett_test <- cortest.bartlett(dados)
+bartlett_test
+```
+
+```{r}
+kmo_test <- KMO(dados)
+kmo_test
+```
+
+```{r}
+library(gridExtra)
+
+resultados <- data.frame(
+  Teste = c("Bartlett", "KMO"),
+  Valor = c(bartlett_test$chisq, kmo_test$MSA),
+  p_valor = c(bartlett_test$p.value, NA),
+  stringsAsFactors = FALSE
+)
+
+grid.table(resultados)
+```
+
+```{r}
+#kable(resultados, col.names = c("Teste", "Valor", "p-valor"), align = "c")
+```
+
+O teste retornou um valor de 89,29183, assim pode-se rejeitar a hipótese nula, ou aceita-se que a hipótese de que há variância significativa, que é, por sua vez, adequado à Análise Fatorial.
+
+Se obteve KMO de 0,53253 (< 0,6), indicando que a Análise Fatorial pode não ser apropriada para os dados fornecidos.
+
+</br>
+</br>
+
+
+## c. Ajuste do Modelo Fatorial
+
+```{r}
+# Ajuste
+
+fa_model <- fa(dados, nfactors = 2, rotate = "varimax", fm = "pa")
+```
+
+```{r}
+# Cargas fatoriais
+
+loadings <- as.data.frame(fa_model$loadings[])
+colnames(loadings) <- c("Fator1", "Fator2")
+```
+
+```{r}
+# Comunalidades
+
+comunalidades <- as.data.frame(fa_model$communality)
+colnames(comunalidades) <- "Comunalidade"
+```
+
+```{r}
+library(grid)
+
+grid.table(loadings)
+grid.newpage()
+grid.table(comunalidades)
+```
+
+Sugere-se que há uma forte associação entre as variáveis e o Fator 1.
+As comunalidades sugerem que os fatores explicam bem a maior parte da variância.
+
+
+</br>
+</br>
+
+## d.  Proporção da variabilidade total por cada fator
+
+```{r}
+variabilidade_explicada <- as.data.frame(fa_model$Vaccounted)
+colnames(variabilidade_explicada) <- c("Fator1", "Fator2")
+```
+
+```{r}
+grid.newpage()
+grid.table(variabilidade_explicada)
+```
+
+A variabilidade total pode ser demonstrada pelo Fator 1. 
+Quanto ao Fator 2, as varáveis podem não ser bem explicadas por ele.
+
+</br>
+</br>
+
+
+## e. Escores fatoriais do Fator 1
+
+```{r}
+escores_fatoriais <- as.data.frame(factor.scores(dados, fa_model)$scores)
+colnames(escores_fatoriais) <- c("Fator1", "Fator2")
+```
+
+```{r}
+grid.newpage()
+grid.table(escores_fatoriais[1])
+```

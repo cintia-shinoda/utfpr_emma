@@ -1,0 +1,20 @@
+---
+title: "Avaliação 5 - Análise de Agrupamentos"
+output:
+  html_document:
+    df_print: paged
+---
+
+
+</br>
+</br>
+
+
+## a. Distâncias por Minkowski
+
+
+</br>
+</br>
+
+
+## b. 

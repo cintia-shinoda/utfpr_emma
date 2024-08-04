@@ -8,6 +8,7 @@
 |  | 01 | Cálculo de Funções de Uma Variável Real | Edson Luiz Valmorbida |  |
 |  | 02 | Equações Diferenciais Ordinárias | Camila Nicola Boeri di Domenico |
 |  | 03 | Análise Multivariada | Sheila Regina Oro |
+|  | 04 | Iniciação à Programação Linear | Eliete Nascimento da Silva |
 
 
 -----
@@ -27,8 +28,8 @@
 | &check; |  | 06 | 06/07/2024 | Equações Diferenciais Ordinárias - 3 |
 | &check; |  | 07 | 13/07/2024 | Análise Multivariada - 1 |
 | &check; |  | 08 | 20/07/2024 | Análise Multivariada - 2 |
-|  |  | 09 | 27/07/2024 | Análise Multivariada - 3 |
-|  |  | 10 | 03/08/2024 | Iniciação à Programação Linear - 1 |
+| &check; |  | 09 | 27/07/2024 | Análise Multivariada - 3 |
+| &check; |  | 10 | 03/08/2024 | Iniciação à Programação Linear - 1 |
 |  |  | 11 | 10/08/2024 | Iniciação à Programação Linear - 2 |
 |  |  | 12 | 17/08/2024 | Iniciação à Programação Linear - 3 |
 |  |  | 13 | 24/08/2024 | Introdução à Programação I - MATLAB - 1 |
