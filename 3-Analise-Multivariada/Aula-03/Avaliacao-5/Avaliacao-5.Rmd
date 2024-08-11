@@ -3,14 +3,47 @@ title: "Avaliação 5 - Análise de Agrupamentos"
 output:
   html_document:
     df_print: paged
+  html_notebook: default
 ---
 
+```{r}
+library(gridExtra)
 
+data <- data.frame(
+X1 = c(0.88, 0.9, 0.9, 0.87, 0.93, 0.89, 0.88, 0.81, 0.82, 0.85, 0.77, 0.71, 0.75, 0.7, 0.44, 0.47, 0.23, 0.34, 0.31, 0.24, 0.76),
+X2 = c(0.99, 0.99, 0.98, 0.98, 0.93, 0.97, 0.87, 0.92, 0.92, 0.9, 0.85, 0.83, 0.83, 0.62, 0.58, 0.37, 0.33, 0.36, 0.35, 0.37, 0.8),
+X3 = c(0.91, 0.93, 0.94, 0.97, 0.93, 0.92, 0.91, 0.8, 0.75, 0.64, 0.69, 0.72, 0.63, 0.6, 0.37, 0.45, 0.27, 0.51, 0.32, 0.36, 0.61),
+X4 = c(1.1, 1.26, 1.24, 1.18, 1.2, 1.04, 1.41, 0.55, 1.05, 0.07, -1.36, 0.47, -0.87, 0.21, -1.36, -0.68, -1.26, -1.98, -0.55, 0.2, 0.39))
+
+rownames(data) <- c("Reino_Unido", "Australia", "Canada", "Estados_Unidos", "Japao", "Franca", "Cingapura", "Argentina", "Uruguai", "Cuba", "Colombia", "Brasil", "Paraguai", "Egito", "Nigeria", "Senegal", "Serra_Leoa", "Angola", "Etiopia", "Mocambique", "China")
+
+grid.table(data)
+```
 </br>
 </br>
 
+
+```{r}
+## Distâncias Euclidianas
+library(DT)
+
+disteuc <- dist(data, method = "euclidean")
+datatable(as.matrix(round(disteuc, digits = 3)))
+```
 
 ## a. Distâncias por Minkowski
+```{r}
+
+
+minkowski <- (dist(data, method = "minkowski", p = 2))
+datatable(as.matrix(round(minkowski, digits = 3)))
+```
+
+</br>
+</br>
+
+Nada mudou. Os resultados obtidos são iguais.
+
 
 
 </br>
@@ -18,3 +51,10 @@ output:
 
 
 ## b. 
+
+```{r}
+library(cluster)
+
+cl_media <- hclust(disteuc, method = "average")
+plot(cl_media)
+```
