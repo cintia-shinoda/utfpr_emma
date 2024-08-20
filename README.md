@@ -33,7 +33,7 @@
 | &check; |  | 09 | 27/07/2024 | Análise Multivariada - 3 |
 | &check; |  | 10 | 03/08/2024 | Iniciação à Programação Linear - 1 |
 |  |  | 11 | 10/08/2024 | Iniciação à Programação Linear - 2 |
-|  |  | 12 | 17/08/2024 | Iniciação à Programação Linear - 3 |
+| &check; |  | 12 | 17/08/2024 | Iniciação à Programação Linear - 3 |
 |  |  | 13 | 24/08/2024 | Introdução à Programação I - MATLAB - 1 |
 |  |  | 14 | 31/08/2024 | Introdução à Programação I - MATLAB - 2 |
 |  |  | 15 | 14/09/2024 | Introdução à Programação I - MATLAB - 3 |
