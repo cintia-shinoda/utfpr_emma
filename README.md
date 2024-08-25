@@ -11,7 +11,7 @@
 |  | 02 | Equações Diferenciais Ordinárias | Camila Nicola Boeri di Domenico |
 |  | 03 | Análise Multivariada | Sheila Regina Oro |
 |  | 04 | Iniciação à Programação Linear | Eliete Nascimento da Silva |
-
+|  | 05 | Introdução à Programação I - MATLAB | Edson Luiz Valmorbida |
 
 -----
 
@@ -34,7 +34,7 @@
 | &check; |  | 10 | 03/08/2024 | Iniciação à Programação Linear - 1 |
 |  |  | 11 | 10/08/2024 | Iniciação à Programação Linear - 2 |
 | &check; |  | 12 | 17/08/2024 | Iniciação à Programação Linear - 3 |
-|  |  | 13 | 24/08/2024 | Introdução à Programação I - MATLAB - 1 |
+| &check; |  | 13 | 24/08/2024 | Introdução à Programação I - MATLAB - 1 |
 |  |  | 14 | 31/08/2024 | Introdução à Programação I - MATLAB - 2 |
 |  |  | 15 | 14/09/2024 | Introdução à Programação I - MATLAB - 3 |
 |  |  | 16 | 21/09/2024 | Métodos Numéricos - 1 |
