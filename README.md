@@ -35,7 +35,7 @@
 |  |  | 11 | 10/08/2024 | Iniciação à Programação Linear - 2 |
 | &check; |  | 12 | 17/08/2024 | Iniciação à Programação Linear - 3 |
 | &check; |  | 13 | 24/08/2024 | Introdução à Programação I - MATLAB - 1 |
-|  |  | 14 | 31/08/2024 | Introdução à Programação I - MATLAB - 2 |
+| &check; |  | 14 | 31/08/2024 | Introdução à Programação I - MATLAB - 2 |
 |  |  | 15 | 14/09/2024 | Introdução à Programação I - MATLAB - 3 |
 |  |  | 16 | 21/09/2024 | Métodos Numéricos - 1 |
 |  |  | 17 | 28/09/2024 | Métodos Numéricos - 2 |
