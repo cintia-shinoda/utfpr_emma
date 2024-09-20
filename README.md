@@ -12,6 +12,7 @@
 |  | 03 | Análise Multivariada | Sheila Regina Oro |
 |  | 04 | Iniciação à Programação Linear | Eliete Nascimento da Silva |
 |  | 05 | Introdução à Programação I - MATLAB | Edson Luiz Valmorbida |
+|  | 06 | Equações Diferenciais de Ordem Superior | Douglas da Costa Ferreira |
 
 -----
 
@@ -37,12 +38,12 @@
 | &check; |  | 13 | 24/08/2024 | Introdução à Programação I - MATLAB - 1 |
 | &check; |  | 14 | 31/08/2024 | Introdução à Programação I - MATLAB - 2 |
 | &check; |  | 15 | 14/09/2024 | Introdução à Programação I - MATLAB - 3 |
-|  |  | 16 | 21/09/2024 | Métodos Numéricos - 1 |
-|  |  | 17 | 28/09/2024 | Métodos Numéricos - 2 |
-|  |  | 18 | 05/10/2024 | Métodos Numéricos - 3 |
-|  |  | 19 | 19/10/2024 | Equações Diferenciais de Ordem Superior - 1 |
-|  |  | 20 | 26/10/2024 | Equações Diferenciais de Ordem Superior - 2 |
-|  |  | 21 | 09/11/2024 | Equações Diferenciais de Ordem Superior - 3 |
+|  |  | 16 | 21/09/2024 | Equações Diferenciais de Ordem Superior - 1 |
+|  |  | 17 | 28/09/2024 | Equações Diferenciais de Ordem Superior - 2 |
+|  |  | 18 | 05/10/2024 | Equações Diferenciais de Ordem Superior - 3 |
+|  |  | 19 | 19/10/2024 | Métodos Numéricos - 1 |
+|  |  | 20 | 26/10/2024 | Métodos Numéricos - 2 |
+|  |  | 21 | 09/11/2024 | Métodos Numéricos - 3 |
 |  |  | 22 | 16/11/2024 | Séries Temporais - 1 |
 |  |  | 23 | 23/11/2024 | Séries Temporais - 2 |
 |  |  | 24 | 30/11/2024 | Séries Temporais - 3 |
