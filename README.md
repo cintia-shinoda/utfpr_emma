@@ -38,8 +38,8 @@
 | &check; |  | 13 | 24/08/2024 | Introdução à Programação I - MATLAB - 1 |
 | &check; |  | 14 | 31/08/2024 | Introdução à Programação I - MATLAB - 2 |
 | &check; |  | 15 | 14/09/2024 | Introdução à Programação I - MATLAB - 3 |
-|  |  | 16 | 21/09/2024 | Equações Diferenciais de Ordem Superior - 1 |
-|  |  | 17 | 28/09/2024 | Equações Diferenciais de Ordem Superior - 2 |
+| &check; |  | 16 | 21/09/2024 | Equações Diferenciais de Ordem Superior - 1 |
+| &check; |  | 17 | 28/09/2024 | Equações Diferenciais de Ordem Superior - 2 |
 |  |  | 18 | 05/10/2024 | Equações Diferenciais de Ordem Superior - 3 |
 |  |  | 19 | 19/10/2024 | Métodos Numéricos - 1 |
 |  |  | 20 | 26/10/2024 | Métodos Numéricos - 2 |
