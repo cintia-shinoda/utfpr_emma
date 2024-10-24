@@ -8,9 +8,9 @@
 |  | # | Disciplina | Professor(a) | Média |
 |:---:|:---:|:---|:---|:---:|
 | &check; | 01 | Cálculo de Funções de Uma Variável Real | Edson Luiz Valmorbida | 9.3 |
-|  | 02 | Equações Diferenciais Ordinárias | Camila Nicola Boeri di Domenico |
-|  | 03 | Análise Multivariada | Sheila Regina Oro |
-|  | 04 | Iniciação à Programação Linear | Eliete Nascimento da Silva |
+| &check; | 02 | Equações Diferenciais Ordinárias | Camila Nicola Boeri di Domenico |
+| &check; | 03 | Análise Multivariada | Sheila Regina Oro |
+| &check; | 04 | Iniciação à Programação Linear | Eliete Nascimento da Silva |
 |  | 05 | Introdução à Programação I - MATLAB | Edson Luiz Valmorbida |
 |  | 06 | Equações Diferenciais de Ordem Superior | Douglas da Costa Ferreira |
 |  | 07 | Análise de Sistemas Caóticos | Douglas da Costa Ferreira |
