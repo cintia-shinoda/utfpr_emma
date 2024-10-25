@@ -44,3 +44,24 @@ números complexos: variáveis ```i``` e ```j```
 ```pi```
 ```Inf``` variável infinito (é maior que ```realmax```)
 ```NaN``` Not a Number
+
+- criação de matriz:
+```matlab
+A = [1 2 3 ; 4 5 6 ; 7 8 9]
+```
+
+- criação de vetor:
+```matlab
+v = [6 ; 15 ; 2]
+```
+
+- transposta:
+```matlab
+transpose(v)
+```
+ou 
+```matlab 
+v' 
+```
+
+1h39min
