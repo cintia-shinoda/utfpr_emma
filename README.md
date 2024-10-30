@@ -43,7 +43,7 @@
 | &check; |  | 17 | 28/09/2024 | Equações Diferenciais de Ordem Superior - 2 |
 | &check; |  | 18 | 05/10/2024 | Equações Diferenciais de Ordem Superior - 3 |
 | &check; |  | 19 | 19/10/2024 | Análise de Sistemas Caóticos - 1 |
-|  |  | 20 | 26/10/2024 | Análise de Sistemas Caóticos - 2 |
+| &check; |  | 20 | 26/10/2024 | Análise de Sistemas Caóticos - 2 |
 |  |  | 21 | 09/11/2024 | Análise de Sistemas Caóticos - 3 |
 |  |  | 22 | 16/11/2024 | Métodos Numéricos - 1 |
 |  |  | 23 | 23/11/2024 | Métodos Numéricos - 2 |
