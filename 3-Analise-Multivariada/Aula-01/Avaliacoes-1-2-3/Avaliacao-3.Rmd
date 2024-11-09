@@ -1,5 +1,5 @@
 ---
-title: "Avaliação 3 - Anáise de Componentes Principais"
+title: "Avaliação 3 - Análise de Componentes Principais"
 output:
   #pdf_document: default
   html_document:

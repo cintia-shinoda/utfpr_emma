@@ -55,7 +55,7 @@ A = [1 2 3 ; 4 5 6 ; 7 8 9]
 v = [6 ; 15 ; 2]
 ```
 
-- transposta:
+- transposição:
 ```matlab
 transpose(v)
 ```
@@ -64,4 +64,119 @@ ou
 v' 
 ```
 
-1h39min
+- soma de matrizes
+```matlab
+A + B
+```
+
+```matlab
+A - B
+```
+
+- multiplicação
+```matlab
+A * B
+```
+
+- divisão
+```matlab
+x = B \ v
+```
+
+- potenciação
+```matlab
+A ^ 2
+```
+
+- precedência de operadores
+
+- concatenação
+```matlab
+C = [A v]
+```
+
+estruturas de dados um pouco mais complexas::
+- table
+- struct
+- cell
+
+```matlab
+syms = cria variáveis simbólicas
+```
+
+- indexação
+```matlab
+A(2, 1)    % retorna 2ª linha, 1ª coluna da matriz A
+A(2,1) = 4.1   % atribui 4.1 à 2ª linha, 1ª coluna da matriz A
+```
+
+- slicing
+```matlab
+A(1, :)    % retorna a 1ª linha inteira da matriz A
+```
+
+```matlab
+w = 0:0.2:1   % cria um vetor de 0 a 1 com passo 0.2
+```
+
+```matlab
+w = linspace(0,1,20)   % cria um vetor de 0 a 1 com 20 elementos
+```
+
+- determinante
+```matlab
+det(A)  % determinante da matriz A
+```
+
+- identidade
+```matlab
+A = eye(3)   % matriz identidade 3x3
+```
+
+- inversa
+```matlab
+A2 = inv(A)   % inversa da matriz A (inversa é a matriz que multiplicada pela matriz original resulta na matriz identidade)
+```
+
+- funções anônimas (functions handles) 
+= funções definidas de forma algébrica
+```matlab
+f = @(x) (x^2)   % cria uma função f(x) = x^2
+
+f(3)             % retorna 9
+```
+
+```matlab
+whos  % exibe todas as variáveis criadas
+```
+
+#### Funções Matemáticas
+##### Trigonométricas
+```matlab
+sin(x)  % seno
+asin(x) % arco seno
+sinh(x) % seno hiperbólico
+cos(x)  % cosseno
+tan(x)  % tangente
+cot(x)  % cotangente
+sec(x)  % secante
+csc(x)  % cossecante
+```
+
+##### Exponenciais e Logarítmicas
+```matlab
+exp(x)   % exponencial
+log(x)   % logaritmo natural (ln, logaritmo na base e)
+log10(x) % logaritmo na base 10
+sqrt(x)  % raiz quadrada
+e = exp(1) % número de Euler
+```
+
+##### Arredondamento
+```matlab
+fix(x)    % arredonda para o inteiro mais próximo
+mod(x, y) % resto da divisão de x por y
+round(x)  % arredonda para o inteiro mais próximo
+ceil(x)   % arredonda para cima
+floor(x)  % arredonda para baixo
+```

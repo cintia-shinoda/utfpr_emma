@@ -1,1 +1,10 @@
 ## Aula 02 - 31/08/2024
+
+
+---
+### Vídeo da Aula
+[Vídeo da Aula 2](https://drive.google.com/file/d/1P_G5skCCdTtd00oBhpGlqr8WyCw25LaY/view)
+
+---
+
+#### Vetorização
