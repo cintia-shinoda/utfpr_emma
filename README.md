@@ -9,7 +9,7 @@
 |:---:|:---:|:---|:---|:---:|
 | &check; | 01 | Cálculo de Funções de Uma Variável Real | Edson Luiz Valmorbida | 9.3 |
 | &check; | 02 | Equações Diferenciais Ordinárias | Camila Nicola Boeri di Domenico |
-| &check; | 03 | Análise Multivariada | Sheila Regina Oro |
+| &check; | 03 | Análise Multivariada | Sheila Regina Oro | 10 |
 | &check; | 04 | Iniciação à Programação Linear | Eliete Nascimento da Silva |
 |  | 05 | Introdução à Programação I - MATLAB | Edson Luiz Valmorbida |
 |  | 06 | Equações Diferenciais de Ordem Superior | Douglas da Costa Ferreira |
@@ -44,7 +44,7 @@
 | &check; |  | 18 | 05/10/2024 | Equações Diferenciais de Ordem Superior - 3 |
 | &check; |  | 19 | 19/10/2024 | Análise de Sistemas Caóticos - 1 |
 | &check; |  | 20 | 26/10/2024 | Análise de Sistemas Caóticos - 2 |
-|  |  | 21 | 09/11/2024 | Análise de Sistemas Caóticos - 3 |
+| &check; |  | 21 | 09/11/2024 | Análise de Sistemas Caóticos - 3 |
 |  |  | 22 | 16/11/2024 | Métodos Numéricos - 1 |
 |  |  | 23 | 23/11/2024 | Métodos Numéricos - 2 |
 |  |  | 24 | 30/11/2024 | Métodos Numéricos - 3 |
