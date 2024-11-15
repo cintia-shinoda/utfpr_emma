@@ -8,9 +8,9 @@
 |  | # | Disciplina | Professor(a) | Média |
 |:---:|:---:|:---|:---|:---:|
 | &check; | 01 | Cálculo de Funções de Uma Variável Real | Edson Luiz Valmorbida | 9.3 |
-| &check; | 02 | Equações Diferenciais Ordinárias | Camila Nicola Boeri di Domenico |
+| &check; | 02 | Equações Diferenciais Ordinárias | Camila Nicola Boeri di Domenico | 8 |
 | &check; | 03 | Análise Multivariada | Sheila Regina Oro | 10 |
-| &check; | 04 | Iniciação à Programação Linear | Eliete Nascimento da Silva |
+| &check; | 04 | Iniciação à Programação Linear | Eliete Nascimento da Silva | 9.8 |
 |  | 05 | Introdução à Programação I - MATLAB | Edson Luiz Valmorbida |
 |  | 06 | Equações Diferenciais de Ordem Superior | Douglas da Costa Ferreira |
 |  | 07 | Análise de Sistemas Caóticos | Douglas da Costa Ferreira |
@@ -45,12 +45,12 @@
 | &check; |  | 19 | 19/10/2024 | Análise de Sistemas Caóticos - 1 |
 | &check; |  | 20 | 26/10/2024 | Análise de Sistemas Caóticos - 2 |
 | &check; |  | 21 | 09/11/2024 | Análise de Sistemas Caóticos - 3 |
-|  |  | 22 | 16/11/2024 | Métodos Numéricos - 1 |
-|  |  | 23 | 23/11/2024 | Métodos Numéricos - 2 |
-|  |  | 24 | 30/11/2024 | Métodos Numéricos - 3 |
-|  |  | 25 | 07/12/2024 | Séries Temporais - 1 |
-|  |  | 26 | 14/12/2024 | Séries Temporais - 2 |
-|  |  | 27 | 21/12/2024 | Séries Temporais - 3 |
+|  |  | 22 | 16/11/2024 | Séries Temporais - 1 |
+|  |  | 23 | 23/11/2024 | Séries Temporais - 2 |
+|  |  | 24 | 30/11/2024 | Séries Temporais - 3 |
+|  |  | 25 | 07/12/2024 | Métodos Numéricos - 1 |
+|  |  | 26 | 14/12/2024 | Métodos Numéricos - 2 |
+|  |  | 27 | 21/12/2024 | Métodos Numéricos - 3 |
 
 
 
