@@ -7,4 +7,6 @@
 
 ---
 
+
 #### Vetorização
+- linguagem interpretada -> custo de processamento
