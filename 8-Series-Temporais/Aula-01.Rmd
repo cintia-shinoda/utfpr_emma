@@ -1,0 +1,37 @@
+---
+title: "Aula 01 - Vetores Aleatórios, Estimação de Parâmetrso em Distribuições Multivariadas e Análise de Componentes Principais"
+output:
+  html_document:
+    df_print: paged
+---
+
+<br>
+<br>
+<br>
+
+[Gravação da Aula 01]()
+
+<br>
+<br>
+
+## Módulo 1 - Caracterização e Decomposição de uma Série Temporal
+
+ 
+### Leituras Recomendadas:
+- Fenômenos típicos de séries temporais: SOUSA, A. R. S.; SILVA, C.; SILVA, J. S. F.; et al. Análise de séries temporais. Porto Alegre: SAGAH, 2021. pág.16-19. Disponível em: https://webapp.utfpr.edu.br/bibservices/minhaBiblioteca?ISBN=9786556902876/
+
+- Tendência e Sazonalidade: MORETIN, P. A.; TOLOI, C.M.C. Análise de séries temporais – Vol I, 3ed. São Paulo: Editora Blucher, 2018. pág.70-83. Disponível em: https://webapp.utfpr.edu.br/bibservices/minhaBiblioteca?ISBN=9788521215349/
+
+
+<br>
+<br>
+<br>
+
+
+
+## Módulo 2 - Modelos Univariados (Suavização Exponencial e ARIMA)
+
+### Leituras Recomendadas:
+- Modelos de Suavização Exponencial, Processos não Estacionários e Modelos SARIMA: BARROS, A.C.; MATTOS, D.M. OLIVEIRA, I.C.L.; FERREIRA,P.G.C.; DUCA, V.E.L.A. Análise de Séries Temporais em R: Curso Introdutório. Rio de Janeiro: Elsevier: FGV IBRE, 2017. pág.84 – 151. Disponível em: https://webapp.utfpr.edu.br/bibservices/minhaBiblioteca?ISBN=9788595154902/
+
+- Modelos de Suavização Exponencial e Modelos ARIMA: MORETIN, P. A.; TOLOI, C.M.C. Análise de séries temporais – Vol I, 3ed. São Paulo: Editora Blucher, 2018. pág.108-182. Disponível em: https://webapp.utfpr.edu.br/bibservices/minhaBiblioteca?ISBN=9788521215349/

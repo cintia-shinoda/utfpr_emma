@@ -8,5 +8,8 @@
 ---
 
 
-#### Vetorização
+### Vetorização
 - linguagem interpretada -> custo de processamento
+- vantagens: > velocidade, maior legibilidade, operações com matrizes
+
+15min
