@@ -9,14 +9,20 @@ output:
 <br>
 <br>
 
-[Gravação da Aula 01]()
-
-<br>
-<br>
-
 ## Módulo 1 - Caracterização e Decomposição de uma Série Temporal
 
- 
+[Gravação da Aula 01 - parte 1](https://drive.google.com/file/d/1jKegswYK8uB6ZNEIRPK7Hr3UUXhfCczu/view)
+[Gravação da Aula 01 - parte 2](https://drive.google.com/file/d/1KAAf01NgD5x5RU-osL9NNQhxC1nL-Ysk/view)
+
+<br>
+<br>
+
+
+
+```{r}
+
+```
+
 ### Leituras Recomendadas:
 - Fenômenos típicos de séries temporais: SOUSA, A. R. S.; SILVA, C.; SILVA, J. S. F.; et al. Análise de séries temporais. Porto Alegre: SAGAH, 2021. pág.16-19. Disponível em: https://webapp.utfpr.edu.br/bibservices/minhaBiblioteca?ISBN=9786556902876/
 
@@ -27,9 +33,18 @@ output:
 <br>
 <br>
 
-
+---
 
 ## Módulo 2 - Modelos Univariados (Suavização Exponencial e ARIMA)
+
+[Gravação da Aula 02](https://drive.google.com/file/d/10xH0SvCu43GUXRnbvF8Jem2i6kLBaxI_/view)
+
+
+```{r}
+
+```
+
+
 
 ### Leituras Recomendadas:
 - Modelos de Suavização Exponencial, Processos não Estacionários e Modelos SARIMA: BARROS, A.C.; MATTOS, D.M. OLIVEIRA, I.C.L.; FERREIRA,P.G.C.; DUCA, V.E.L.A. Análise de Séries Temporais em R: Curso Introdutório. Rio de Janeiro: Elsevier: FGV IBRE, 2017. pág.84 – 151. Disponível em: https://webapp.utfpr.edu.br/bibservices/minhaBiblioteca?ISBN=9788595154902/
