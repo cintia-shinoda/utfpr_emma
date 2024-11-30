@@ -1,0 +1,26 @@
+---
+title: "Módulo 2 - Modelos Univariados (Suavização Exponencial e ARIMA)"
+output:
+  html_document:
+    df_print: paged
+---
+
+<br>
+<br>
+<br>
+
+## Módulo 2 - Modelos Univariados (Suavização Exponencial e ARIMA)
+
+[Gravação da Aula 02](https://drive.google.com/file/d/10xH0SvCu43GUXRnbvF8Jem2i6kLBaxI_/view)
+
+
+```{r}
+
+```
+
+
+
+### Leituras Recomendadas:
+- Modelos de Suavização Exponencial, Processos não Estacionários e Modelos SARIMA: BARROS, A.C.; MATTOS, D.M. OLIVEIRA, I.C.L.; FERREIRA,P.G.C.; DUCA, V.E.L.A. Análise de Séries Temporais em R: Curso Introdutório. Rio de Janeiro: Elsevier: FGV IBRE, 2017. pág.84 – 151. Disponível em: https://webapp.utfpr.edu.br/bibservices/minhaBiblioteca?ISBN=9788595154902/
+
+- Modelos de Suavização Exponencial e Modelos ARIMA: MORETIN, P. A.; TOLOI, C.M.C. Análise de séries temporais – Vol I, 3ed. São Paulo: Editora Blucher, 2018. pág.108-182. Disponível em: https://webapp.utfpr.edu.br/bibservices/minhaBiblioteca?ISBN=9788521215349/

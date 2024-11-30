@@ -1,0 +1,10 @@
+---
+title: "Módulo 3: Modelos Multivariados (ETS e VAR)"
+output:
+  html_document:
+    df_print: paged
+---
+
+<br>
+<br>
+<br>

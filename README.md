@@ -48,7 +48,7 @@
 | &check; |  | 21 | 09/11/2024 | Análise de Sistemas Caóticos - 3 |
 | - |  | 22 | 16/11/2024 | Séries Temporais - 1 |
 | &check; |  | 23 | 23/11/2024 | Séries Temporais - 2 |
-|  |  | 24 | 30/11/2024 | Séries Temporais - 3 |
+| &check; |  | 24 | 30/11/2024 | Séries Temporais - 3 |
 |  |  | 25 | 07/12/2024 | Métodos Numéricos - 1 |
 |  |  | 26 | 14/12/2024 | Métodos Numéricos - 2 |
 |  |  | 27 | 21/12/2024 | Métodos Numéricos - 3 |
