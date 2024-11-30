@@ -1,0 +1,5 @@
+T = impor('protein.csv', 'Delimiter', ',', 'HeaderLines',6, 'ReadRowNames', true);
+dados = table2array(T);
+paises_nomes = T.Properties.RowNames;
+proteinas_nomes = T.Properties.VariableNames;
+T
