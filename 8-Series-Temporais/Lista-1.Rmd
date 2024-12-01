@@ -1,0 +1,49 @@
+---
+title: "Lista de Exercícios - 1"
+output:
+  html_document:
+    df_print: paged
+---
+
+<br>
+<br>
+<br>
+
+Importe a planilha de dados exercicio1.xlsx. Organize os dados na forma de uma série temporal mensal com início no mês de maio de 1989.
+```{r}
+
+```
+
+a) Plote o gráfico da série temporal. Comente sobre as características perceptíveis no gráfico.
+```{r}
+```
+
+b) Plote o periodograma integrado. Comente sobre as característica perceptíveis no gráfico.
+```{r}
+```
+
+c) Plote a decomposição da série temporal. Comente sobre as características perceptíveis no gráfico da tendência e sazonalidade.
+```{r}
+```
+
+d) Aplique o teste ADF. Interprete o resultado do teste.
+```{r}
+```
+
+e) Obtenha um modelo ARIMA(p,d,q)
+```{r}
+```
+i. Quantos parâmetros o modelo possui na porção autorregressiva?
+ii. Quantos parâmetros o modelo possui na porção de médias móveis?
+iii. O modelo ajustado considera a sazonalidade? Caso afirmativo, indique quantos parâmetros em cada porção sazonal.
+iv. Comente sobre as características perceptíveis no gráfico do periodograma integrado para os resíduos do modelo.
+
+f) Ajuste um modelo de suavização exponencial de Holt-Winters
+```{r}
+```
+i. Quais os valores estimados para os parâmetros?
+ii. Comente sobre as características perceptíveis no gráfico do periodograma integrado para os resíduos do modelo.
+
+g) Compare os modelos ajustados (ARIMA e Holt-Winters). Utilizando o Critério de Informação de Akaike (AIC), indique o melhor modelo.
+```{r}
+```

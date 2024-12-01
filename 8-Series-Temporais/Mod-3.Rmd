@@ -8,3 +8,5 @@ output:
 <br>
 <br>
 <br>
+
+## Módulo 3 - Modelos Multivariados (ETS e VAR)

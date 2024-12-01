@@ -1,0 +1,37 @@
+---
+title: "Lista de Exercícios - 2"
+output:
+  html_document:
+    df_print: paged
+---
+
+<br>
+<br>
+<br>
+
+Utilize a mesma planilha de dados da primeira lista de exercícios.
+```{r}
+```
+
+
+a) Separe os dados em um conjunto de treinamento, contendo os 88 primeiros valores da série temporal.
+```{r}
+```
+
+b) Usando o conjunto de treinamento, estime os modelos Holt-Winters, ARIMA e ETS.
+```{r}
+```
+
+c) Apresente as estimativas (usando o comando summary) e interprete os principais resultados.
+```{r}
+```
+
+d) Plote os modelos obtidos para a série temporal, com as previsões para os últimos 12 meses. Comente sobre as características perceptíveis nos gráficos.
+```{r}
+```
+
+e)  Apresente a acurácia dos modelos nas fases de treinamento e de previsões e inteprete os resultados.
+```{r}
+```
+
+f) Com base nos resultados obtidos nos itens anteriores, indique quais os modelos ajustados foi o melhor.

@@ -11,7 +11,7 @@
 
 
 
-<title>Aula 01 - Vetores Aleatórios, Estimação de Parâmetrso em Distribuições Multivariadas e Análise de Componentes Principais</title>
+<title>Lista de Exercícios - 1</title>
 
 <script>// Pandoc 2.9 adds attributes on both header and div. We remove the former (to
 // be compatible with the behavior of Pandoc < 2.8).
@@ -1619,47 +1619,46 @@ display: none;
 
 
 
-<h1 class="title toc-ignore">Aula 01 - Vetores Aleatórios, Estimação de
-Parâmetrso em Distribuições Multivariadas e Análise de Componentes
-Principais</h1>
+<h1 class="title toc-ignore">Lista de Exercícios - 1</h1>
 
 </div>
 
 
 <p><br> <br> <br></p>
-<p><a href>Gravação da Aula 01</a></p>
-<p><br> <br></p>
-<div id="módulo-1---caracterização-e-decomposição-de-uma-série-temporal" class="section level2">
-<h2>Módulo 1 - Caracterização e Decomposição de uma Série Temporal</h2>
-<div id="leituras-recomendadas" class="section level3">
-<h3>Leituras Recomendadas:</h3>
-<ul>
-<li><p>Fenômenos típicos de séries temporais: SOUSA, A. R. S.; SILVA,
-C.; SILVA, J. S. F.; et al. Análise de séries temporais. Porto Alegre:
-SAGAH, 2021. pág.16-19. Disponível em: <a href="https://webapp.utfpr.edu.br/bibservices/minhaBiblioteca?ISBN=9786556902876/" class="uri">https://webapp.utfpr.edu.br/bibservices/minhaBiblioteca?ISBN=9786556902876/</a></p></li>
-<li><p>Tendência e Sazonalidade: MORETIN, P. A.; TOLOI, C.M.C. Análise
-de séries temporais – Vol I, 3ed. São Paulo: Editora Blucher, 2018.
-pág.70-83. Disponível em: <a href="https://webapp.utfpr.edu.br/bibservices/minhaBiblioteca?ISBN=9788521215349/" class="uri">https://webapp.utfpr.edu.br/bibservices/minhaBiblioteca?ISBN=9788521215349/</a></p></li>
-</ul>
-<p><br> <br> <br></p>
-</div>
-</div>
-<div id="módulo-2---modelos-univariados-suavização-exponencial-e-arima" class="section level2">
-<h2>Módulo 2 - Modelos Univariados (Suavização Exponencial e ARIMA)</h2>
-<div id="leituras-recomendadas-1" class="section level3">
-<h3>Leituras Recomendadas:</h3>
-<ul>
-<li><p>Modelos de Suavização Exponencial, Processos não Estacionários e
-Modelos SARIMA: BARROS, A.C.; MATTOS, D.M. OLIVEIRA, I.C.L.;
-FERREIRA,P.G.C.; DUCA, V.E.L.A. Análise de Séries Temporais em R: Curso
-Introdutório. Rio de Janeiro: Elsevier: FGV IBRE, 2017. pág.84 – 151.
-Disponível em: <a href="https://webapp.utfpr.edu.br/bibservices/minhaBiblioteca?ISBN=9788595154902/" class="uri">https://webapp.utfpr.edu.br/bibservices/minhaBiblioteca?ISBN=9788595154902/</a></p></li>
-<li><p>Modelos de Suavização Exponencial e Modelos ARIMA: MORETIN, P.
-A.; TOLOI, C.M.C. Análise de séries temporais – Vol I, 3ed. São Paulo:
-Editora Blucher, 2018. pág.108-182. Disponível em: <a href="https://webapp.utfpr.edu.br/bibservices/minhaBiblioteca?ISBN=9788521215349/" class="uri">https://webapp.utfpr.edu.br/bibservices/minhaBiblioteca?ISBN=9788521215349/</a></p></li>
-</ul>
-</div>
-</div>
+<p>Importe a planilha de dados exercicio1.xlsx. Organize os dados na
+forma de uma série temporal mensal com início no mês de maio de
+1989.</p>
+<ol style="list-style-type: lower-alpha">
+<li><p>Plote o gráfico da série temporal. Comente sobre as
+características perceptíveis no gráfico.</p></li>
+<li><p>Plote o periodograma integrado. Comente sobre as característica
+perceptíveis no gráfico.</p></li>
+<li><p>Plote a decomposição da série temporal. Comente sobre as
+características perceptíveis no gráfico da tendência e
+sazonalidade.</p></li>
+<li><p>Aplique o teste ADF. Interprete o resultado do teste.</p></li>
+<li><p>Obtenha um modelo ARIMA(p,d,q)</p></li>
+</ol>
+<ol style="list-style-type: lower-roman">
+<li>Quantos parâmetros o modelo possui na porção autorregressiva?</li>
+<li>Quantos parâmetros o modelo possui na porção de médias móveis?</li>
+<li>O modelo ajustado considera a sazonalidade? Caso afirmativo, indique
+quantos parâmetros em cada porção sazonal.</li>
+<li>Comente sobre as características perceptíveis no gráfico do
+periodograma integrado para os resíduos do modelo.</li>
+</ol>
+<ol start="6" style="list-style-type: lower-alpha">
+<li>Ajuste um modelo de suavização exponencial de Holt-Winters</li>
+</ol>
+<ol style="list-style-type: lower-roman">
+<li>Quais os valores estimados para os parâmetros?</li>
+<li>Comente sobre as características perceptíveis no gráfico do
+periodograma integrado para os resíduos do modelo.</li>
+</ol>
+<ol start="7" style="list-style-type: lower-alpha">
+<li>Compare os modelos ajustados (ARIMA e Holt-Winters). Utilizando o
+Critério de Informação de Akaike (AIC), indique o melhor modelo.</li>
+</ol>
 
 
 
