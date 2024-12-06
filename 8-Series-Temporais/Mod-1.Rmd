@@ -9,7 +9,7 @@ output:
 <br>
 <br>
 
-## Módulo 1 - Caracterização e Decomposição de uma Série Temporal
+# Módulo 1 - Caracterização e Decomposição de uma Série Temporal
 
 [Gravação da Aula 01 - parte 1](https://drive.google.com/file/d/1jKegswYK8uB6ZNEIRPK7Hr3UUXhfCczu/view)
 
@@ -26,14 +26,79 @@ output:
 <br>
 <br>
 
+## Caracterização
+- monitoramento de fenômenos naturais
+- sazonalidade x periodicidade longa = ciclo
+- plotar gráfico
+- alta sazonalidade, alta variância
+- homogeneidade/heterogeneidade: amplitude
+- série temporal multivariada x univariada
 
-23min
+### Terminologia
+- Processo Estocástico
+- Série Temporal
+  - discreta
+  - contínua: intervalos de tempo irregulares
+- Tendência
+- Ciclos
+- Sazonalidade
+- Ruído
+- Estacionariedade: estabilidade na média e/ou variância
+- Homogeneidade
+
+### Objetivos
+- previsão de valores futuros
+- descrição o comportamento da série
+- identificação do mecanismo que gera a série
+
+### Representação:
+$$Z_t = f(T_t, C_t, S_t, a_t)$$
+
+Onde:
+
+T = Tendência
+
+C = Ciclo
+
+S = Sazonalidade
+
+a = parte aleatória (ruído)
 
 
+### Parâmetros
+- Média
+- Variância
+
+
+### Relação entre as observações
+- Função de Autocovariância (FACV)
+- Função de Autocorrelação (ACF): não considera valores intermediários
+- Periodograma Integrado: verificar aleatoriedade da série
 
 ```{r}
+library(readxl)
+manchas.sol <- read_excel("sunspotdata.xlsx")
+manchas <- ts(manchas.sol[,3], start = c(1945,7), frequency = 12)
+manchas.sol
+manchas
 
+# Nível de Água de um Reservatório:
+NAR <- read_excel("NAR.xlsx")   
+reservatorio <- ts(NAR[,2], start=c(2000,1), frequency = 365)  # diária
+NAR
+
+
+# Gráficos:
+plot(manchas, xlab="Ano", ylab="Quantidade", col="red", main="Manchas Solares")
+plot(reservatorio, xlab="Ano", ylab="Nível (msnm", col="blue", main="Nível de Água do Reservatório")
+
+# Periodograma:
+cpgram(manchas, main="Periodograma Integrado - Manchas Solares")
+cpgram(reservatorio, main="Periodograma Integrado - Nível de Água do Reservatório")
 ```
 
 
+## Decomposição Clássica
+
+- modelagem de componentes sistemáticos
 

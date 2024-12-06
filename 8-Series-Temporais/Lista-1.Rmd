@@ -11,39 +11,67 @@ output:
 
 Importe a planilha de dados exercicio1.xlsx. Organize os dados na forma de uma série temporal mensal com início no mês de maio de 1989.
 ```{r}
-
+library(readxl)
+dados <- read_excel("exercicio1.xlsx")
+dados
+dados.serie <- ts(dados, start = c(1989,5), frequency=12)
+dados.serie
 ```
 
 a) Plote o gráfico da série temporal. Comente sobre as características perceptíveis no gráfico.
 ```{r}
+plot(dados.serie, xlab="Ano", ylab="", col="red", main="Gráfico da Série Temporal")
 ```
 
 b) Plote o periodograma integrado. Comente sobre as característica perceptíveis no gráfico.
 ```{r}
+cpgram(dados.serie, main="Periodograma Integrado")
 ```
 
 c) Plote a decomposição da série temporal. Comente sobre as características perceptíveis no gráfico da tendência e sazonalidade.
 ```{r}
+dados.decomp <- decompose(dados.serie)
+plot(dados.decomp)
 ```
 
 d) Aplique o teste ADF. Interprete o resultado do teste.
 ```{r}
+library(tseries)
+adf.test(dados.serie)
 ```
+
 
 e) Obtenha um modelo ARIMA(p,d,q)
 ```{r}
+library(forecast)
+
+dados.serie.ARIMA <- auto.arima(dados.serie)
+summary(dados.serie.ARIMA)
+cpgram(dados.serie.ARIMA$residuals)
 ```
+
 i. Quantos parâmetros o modelo possui na porção autorregressiva?
+
 ii. Quantos parâmetros o modelo possui na porção de médias móveis?
+
 iii. O modelo ajustado considera a sazonalidade? Caso afirmativo, indique quantos parâmetros em cada porção sazonal.
+
 iv. Comente sobre as características perceptíveis no gráfico do periodograma integrado para os resíduos do modelo.
+
 
 f) Ajuste um modelo de suavização exponencial de Holt-Winters
 ```{r}
+HW.dados.serie <- hw(dados.serie)
+summary(HW.dados.serie)
+cpgram(HW.dados.serie$residuals, main="Periodograma Integrado - Resíduos HW.dados.serie")
 ```
+
 i. Quais os valores estimados para os parâmetros?
+
 ii. Comente sobre as características perceptíveis no gráfico do periodograma integrado para os resíduos do modelo.
+
 
 g) Compare os modelos ajustados (ARIMA e Holt-Winters). Utilizando o Critério de Informação de Akaike (AIC), indique o melhor modelo.
 ```{r}
+
 ```
