@@ -15,6 +15,7 @@
 |  | 06 | Equações Diferenciais de Ordem Superior | Douglas da Costa Ferreira |  |
 |  | 07 | Análise de Sistemas Caóticos | Douglas da Costa Ferreira |  |
 |  | 08 | Séries Temporais | Sheila Regina Oro |  |
+|  | 09 | Programação Linear Inteira | Franklin Angelo Krukoski |  |
 
 -----
 
@@ -49,9 +50,9 @@
 | - |  | 22 | 16/11/2024 | Séries Temporais - 1 |
 | &check; |  | 23 | 23/11/2024 | Séries Temporais - 2 |
 | &check; |  | 24 | 30/11/2024 | Séries Temporais - 3 |
-|  |  | 25 | 07/12/2024 | Métodos Numéricos - 1 |
-|  |  | 26 | 14/12/2024 | Métodos Numéricos - 2 |
-|  |  | 27 | 21/12/2024 | Métodos Numéricos - 3 |
+|  |  | 25 | 07/12/2024 | Programação Linear Inteira - 1 |
+|  |  | 26 | 14/12/2024 | Programação Linear Inteira - 2 |
+|  |  | 27 | 21/12/2024 | Programação Linear Inteira - 3 |
 
 
 
@@ -60,9 +61,9 @@
 
 |  |  | # | Data | Disciplina |
 |:---:|:---:|:---:|:---:|:---|
-|  |  | 28 | 08/02/2025 | Programação Linear Inteira - 1 |
-|  |  | 29 | 15/02/2025 | Programação Linear Inteira - 2 |
-|  |  | 30 | 22/02/2025 | Programação Linear Inteira - 3 |
+|  |  | 28 | 08/02/2025 | Métodos Numéricos - 1 |
+|  |  | 29 | 15/02/2025 | Métodos Numéricos - 2 |
+|  |  | 30 | 22/02/2025 | Métodos Numéricos - 3 |
 |  |  | 31 | 01/03/2025 | Introdução à Programação II - Python - 1 |
 |  |  | 32 | 08/03/2025 | Introdução à Programação II - Python - 2 |
 |  |  | 33 | 15/03/2025 | Introdução à Programação II - Python - 3 |
