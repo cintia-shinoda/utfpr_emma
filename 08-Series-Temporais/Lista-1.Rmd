@@ -18,15 +18,21 @@ dados.serie <- ts(dados, start = c(1989,5), frequency=12)
 dados.serie
 ```
 
+<br>
+
 a) Plote o gráfico da série temporal. Comente sobre as características perceptíveis no gráfico.
 ```{r}
-plot(dados.serie, xlab="Ano", ylab="", col="red", main="Gráfico da Série Temporal")
+plot(dados.serie, xlab="Ano", col="red", main="Gráfico da Série Temporal")
 ```
+
+<br>
 
 b) Plote o periodograma integrado. Comente sobre as característica perceptíveis no gráfico.
 ```{r}
 cpgram(dados.serie, main="Periodograma Integrado")
 ```
+
+<br>
 
 c) Plote a decomposição da série temporal. Comente sobre as características perceptíveis no gráfico da tendência e sazonalidade.
 ```{r}
@@ -34,12 +40,15 @@ dados.decomp <- decompose(dados.serie)
 plot(dados.decomp)
 ```
 
+<br>
+
 d) Aplique o teste ADF. Interprete o resultado do teste.
 ```{r}
 library(tseries)
 adf.test(dados.serie)
 ```
 
+<br>
 
 e) Obtenha um modelo ARIMA(p,d,q)
 ```{r}
@@ -58,6 +67,7 @@ iii. O modelo ajustado considera a sazonalidade? Caso afirmativo, indique quanto
 
 iv. Comente sobre as características perceptíveis no gráfico do periodograma integrado para os resíduos do modelo.
 
+<br>
 
 f) Ajuste um modelo de suavização exponencial de Holt-Winters
 ```{r}
@@ -70,6 +80,7 @@ i. Quais os valores estimados para os parâmetros?
 
 ii. Comente sobre as características perceptíveis no gráfico do periodograma integrado para os resíduos do modelo.
 
+<br>
 
 g) Compare os modelos ajustados (ARIMA e Holt-Winters). Utilizando o Critério de Informação de Akaike (AIC), indique o melhor modelo.
 ```{r}
