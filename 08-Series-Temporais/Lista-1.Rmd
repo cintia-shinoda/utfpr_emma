@@ -25,12 +25,19 @@ a) Plote o gráfico da série temporal. Comente sobre as características percep
 plot(dados.serie, xlab="Ano", col="red", main="Gráfico da Série Temporal")
 ```
 
+Observa-se que os valores desta série oscilam significativamente, porém, sem apresentar uma tendência clara de crescimento ou decrescimento clara.
+Não é possível observar amplitude constante.
+Embora não haja uma sazonalidade anual clara, picos e vales recorrentes sugere a possibilidade de alguma periodicidade mais curta.
+
 <br>
 
 b) Plote o periodograma integrado. Comente sobre as característica perceptíveis no gráfico.
 ```{r}
 cpgram(dados.serie, main="Periodograma Integrado")
 ```
+
+No gráfico obtido, a curva apresenta uma inclinação crescente, indicando a presença de componentes de baixa frequência na série temporal, sugerindo que a série possui uma tendência ou ciclos de longo prazo
+É possível observar que o periodograma integrado, ultrapassa os limites das linhas de referência, indicando a necessidade de ajustes para capturar características nãoestacionárias da série temporal.
 
 <br>
 
@@ -40,6 +47,9 @@ dados.decomp <- decompose(dados.serie)
 plot(dados.decomp)
 ```
 
+No gráfico da tendência, há uma variação, mas não é possível observar um comportamento claro.
+Na curva de sazonalidade, observa-se ciclos bem definidos.
+
 <br>
 
 d) Aplique o teste ADF. Interprete o resultado do teste.
@@ -47,6 +57,9 @@ d) Aplique o teste ADF. Interprete o resultado do teste.
 library(tseries)
 adf.test(dados.serie)
 ```
+
+Com os resultados do teste, chegamos à conclusão de que é uma série estacionária.
+Portanto, apresenta média e variância constantes ao longo do tempo.
 
 <br>
 
@@ -58,6 +71,8 @@ dados.serie.ARIMA <- auto.arima(dados.serie)
 summary(dados.serie.ARIMA)
 cpgram(dados.serie.ARIMA$residuals)
 ```
+
+A curva permanece dentro dos limites de confiança (linhas pontilhadas), sugerindo que os resíduos não apresenta sazonalidade. Portanto, há indicação de que o modelo ARIMA, capturou características da série temporal original.
 
 i. Quantos parâmetros o modelo possui na porção autorregressiva?
 
@@ -76,6 +91,8 @@ summary(HW.dados.serie)
 cpgram(HW.dados.serie$residuals, main="Periodograma Integrado - Resíduos HW.dados.serie")
 ```
 
+É possível observar que a curva está próxima dos limites de confiança, sugerindo que o modelo conseguiu capturar características da série temporal
+
 i. Quais os valores estimados para os parâmetros?
 
 ii. Comente sobre as características perceptíveis no gráfico do periodograma integrado para os resíduos do modelo.
@@ -83,6 +100,6 @@ ii. Comente sobre as características perceptíveis no gráfico do periodograma 
 <br>
 
 g) Compare os modelos ajustados (ARIMA e Holt-Winters). Utilizando o Critério de Informação de Akaike (AIC), indique o melhor modelo.
-```{r}
 
-```
+O modelo ARIMA apresentou valor de AIC = 5.37, enquanto o de Holt-Winters apresentou o valor de AIC = 242.7.
+Com base nestes resultados, é possível concluir que o modelo ARIMA teve um desempenho superior, de acordo com o Critério de Informação de Akaike.
