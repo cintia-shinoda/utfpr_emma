@@ -11,6 +11,7 @@ output:
 
 Utilize a mesma planilha de dados da primeira lista de exercícios.
 ```{r}
+library(readxl)
 ```
 
 

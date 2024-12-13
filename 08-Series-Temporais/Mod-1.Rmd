@@ -100,5 +100,5 @@ cpgram(reservatorio, main="Periodograma Integrado - Nível de Água do Reservat�
 
 ## Decomposição Clássica
 
-- modelagem de componentes sistemáticos
+- componentes sistemáticos = comportamentos repetitivos
 
