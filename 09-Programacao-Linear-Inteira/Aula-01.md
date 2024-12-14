@@ -21,12 +21,12 @@
 2. A função objetivo em um problema de PL sempre busca maximizar o lucro: FALSO
 
 3. Selecione a melhor descrição para cada componente:
-a. São os valores desconhecidos que queremos determinar: Variáveis de Decisão
-b. É uma equação linear que relaciona as variáveis de decisão ao objetivo: Função Objetivo
-c. Representam as limitações e exigências do problema: Restrições
-d. Expressa matematicamente o objetivo a ser otimizado: Função Objetivo
-e. Representam as decisões que precisam ser tomadas: Variáveis de Decisão
-f. São inequações lineares que as variáveis de decisão devem satisfazer: Restrições
+a. São os valores desconhecidos que queremos determinar: ```Variáveis de Decisão```
+b. É uma equação linear que relaciona as variáveis de decisão ao objetivo: ```Função Objetivo```
+c. Representam as limitações e exigências do problema: ```Restrições```
+d. Expressa matematicamente o objetivo a ser otimizado: ```Função Objetivo```
+e. Representam as decisões que precisam ser tomadas: ```Variáveis de Decisão```
+f. São inequações lineares que as variáveis de decisão devem satisfazer: ```Restrições```
 
 ---
 
@@ -79,8 +79,9 @@ f. São inequações lineares que as variáveis de decisão devem satisfazer: Re
 - torna-se complexa e inviável para problemas com mais de duas variáveis de decisão
 - para problemas maiores, utiliza-se métodos algébricos e computacionais
 
+---
 
-### Questionário sobre formulação de PPL e método gráfico
+### Questionário sobre formulação de PPL e Método Gráfico
 
 
 
@@ -126,5 +127,33 @@ f. São inequações lineares que as variáveis de decisão devem satisfazer: Re
 - Solução degenerada: variável básica com valor zero em uma solução
 
 ---
+Questionário sobre o Método Simplex
+
+
+
+---
 
 ## 1.5 - Solver e Considerações dos PPLIs
+
+### PL x PLI
+- representar decisões discretas
+- modelar decisões do tipo "sim" ou "não"
+    - usa-se variáveis binárias (0 ou 1) para representar escolhas
+- representar relações lógicas completas
+
+#### Tipos de Variáveis Inteiras
+- variáveis inteiras
+- variáveis binárias
+
+
+- Programação Inteira Pura
+- Programação Inteira Lista
+- Programação Binária
+
+#### Complexidade da PLI
+- Dificuldade Computacional
+- Explosão Combinatória
+
+####
+- Métodos Exatos
+- Métodos Heurísticos e Meta-heurísticas
