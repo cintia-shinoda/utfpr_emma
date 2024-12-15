@@ -10,29 +10,69 @@ output:
 <br>
 
 Utilize a mesma planilha de dados da primeira lista de exercícios.
-```{r}
-library(readxl)
-```
 
 
 a) Separe os dados em um conjunto de treinamento, contendo os 88 primeiros valores da série temporal.
 ```{r}
+library(readxl)
+
+dados <- read_excel("exercicio1.xlsx")
+dados.serie <- ts(dados, start = c(1989,5), frequency=12)
+dados.treino <- ts(dados.serie[1:88], start = c(1989,5), frequency=12)
+dados.treino
 ```
 
 b) Usando o conjunto de treinamento, estime os modelos Holt-Winters, ARIMA e ETS.
 ```{r}
+library(tseries)
+library(forecast)
+
+# Modelo Holt-Winters
+HW <- hw(dados.treino, h=12)
+cpgram(HW$residuals, main="Periodograma Integrado - Resíduos Holt-Winters")
+
+# Modelo ARIMA
+ARIMA <- auto.arima(dados.treino)
+cpgram(ARIMA$residuals, main="Periodograma Integrado - Resíduos ARIMA")
+
+# Modelo ETS
+ETS <- ets(dados.treino)
+cpgram(ETS$residuals, main="Periodograma Integrado - Resíduos ETS")
 ```
 
 c) Apresente as estimativas (usando o comando summary) e interprete os principais resultados.
 ```{r}
+summary(HW)
+summary(ARIMA)
+summary(ETS)
 ```
 
 d) Plote os modelos obtidos para a série temporal, com as previsões para os últimos 12 meses. Comente sobre as características perceptíveis nos gráficos.
 ```{r}
+
+# Modelo Holt-Winters
+plot(HW)
+lines(dados.serie)
+
+# Modelo ARIMA
+plot(forecast(ARIMA,h=12))
+lines(dados.serie)
+
+# Modelo ETS
+plot(forecast(ETS,h=12))
+lines(dados.serie)
 ```
 
 e)  Apresente a acurácia dos modelos nas fases de treinamento e de previsões e inteprete os resultados.
 ```{r}
+# Modelo Holt-Winters
+accuracy(HW, dados.serie[89:100])
+
+# Modelo ARIMA
+accuracy(forecast(ARIMA, h=12), dados.serie[89:100])
+
+# Modelo ETS
+accuracy(forecast(ETS, h=12), dados.serie[89:100])
 ```
 
 f) Com base nos resultados obtidos nos itens anteriores, indique quais os modelos ajustados foi o melhor.

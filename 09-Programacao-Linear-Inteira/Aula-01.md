@@ -127,7 +127,7 @@ f. São inequações lineares que as variáveis de decisão devem satisfazer: ``
 - Solução degenerada: variável básica com valor zero em uma solução
 
 ---
-Questionário sobre o Método Simplex
+## Questionário sobre o Método Simplex
 
 
 
@@ -157,3 +157,7 @@ Questionário sobre o Método Simplex
 ####
 - Métodos Exatos
 - Métodos Heurísticos e Meta-heurísticas
+
+---
+
+## Questionário sobre o Solver do Excel
