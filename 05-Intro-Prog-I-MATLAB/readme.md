@@ -9,6 +9,6 @@
 
 |  | Avaliação |  |
 |:---:|:--|:---:|
-|  | Lista de Exercícios |  |
-|  | Trabalho |  |
+| &check; | Lista de Exercícios |  |
+| &check; | Trabalho |  |
 | **Média** |  | **** |

@@ -175,7 +175,7 @@ plot(tempo, coluna3, 'k');
 xlabel('Tempo [amostra]','FontSize',24);
 ylabel('2a Derivada no Tempo', 'FontSize',24);
 
-figure() %2a Derivada (x_dois_pontos)
+figure() %Variável (z) (x_dois_pontos)
 plot(tempo, coluna3, 'k');
 xlabel('Tempo [amostra]','FontSize',24);
 ylabel('Variável Z no Tempo', 'FontSize',24);

@@ -1,13 +1,12 @@
 clear;
 clc;
 
-[t,x] = ode45(@ex_2_a, [0:0.1:30], [1 0 0 0]);
+[t,x] = ode45(@ex_2_c, [0:0.1:30], [1 0 0]);
 
 tempo = t;
 coluna1 = x(:,1);
 coluna2 = x(:,2);
 coluna3 = x(:,3);
-coluna4 = x(:,4);
 
 
 figure()
@@ -22,11 +21,6 @@ ylabel('1ª Derivada no Tempo', 'FontSize',24);
 
 figure()
 plot(tempo, coluna3);
-xlabel('Tempo [amostra]','FontSize',24);
-ylabel('2ª Derivada no Tempo', 'FontSize',24);
-
-figure()
-plot(tempo, coluna4);
 xlabel('Tempo [amostra]','FontSize',24);
 ylabel('Variável Z no Tempo', 'FontSize',24);
 
