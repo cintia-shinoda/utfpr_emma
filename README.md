@@ -52,7 +52,7 @@
 | &check; |  | 24 | 30/11/2024 | Séries Temporais - 3 |
 | &check; |  | 25 | 07/12/2024 | Programação Linear Inteira - 1 |
 | &check; |  | 26 | 14/12/2024 | Programação Linear Inteira - 2 |
-|  |  | 27 | 21/12/2024 | Programação Linear Inteira - 3 |
+| &check; |  | 27 | 21/12/2024 | Programação Linear Inteira - 3 |
 
 
 
