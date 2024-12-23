@@ -54,7 +54,14 @@
 - ressonância < caos (máxima geração de energia)
 
 ## Modelos Dinânicos para Estudo
-### Modelo Linear com Excitação Periódica
+- Modelo Linear com Excitação Periódica
+- Modelo Não-Linear com Excitação Periódica
+- Modelo Não-Linear com Excitação Periódica
+- Modelo Não-Linear com Excitação Não-Ideal
+
+---
+
+## 1. Modelo Linear com Excitação Periódica
 $\ddot{x} = -\frac{1}{2}x - 2\zeta \dot{x} + \chi v + f \cos\Omega t$
 
 $\dot{v} = -\kappa\dot{x} - \Lambda v$
