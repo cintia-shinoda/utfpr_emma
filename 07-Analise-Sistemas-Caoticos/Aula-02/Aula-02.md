@@ -169,7 +169,7 @@ $v(0) = 0$
    h1=t;
    h2=y(:,1); %deslocamento da ponta da viga
    h3=y(:,2); %velocidade da ponta da viga
-   h4=y(:,3); %tensão Elétrica Captada
+   h4=y(:,3); %tensão elétrica Captada
 
    [t,y]=ode45(@system_nao_linear_periodico,[500:0.1:2500],[1 1.3 0]);
    n1=t;
@@ -202,7 +202,7 @@ $v(0) = 0$
       xlabel('Deslocamento da Ponta da Viga [taxa]','fontsize',18); 
       ylabel('Velocidade da Ponta da Viga [taxa]','fontsize',18);
       
-      figure() %3D retrato fase da Energia Cin�tica
+      figure() %3D retrato fase da Energia Cinética
       plot3(o1,o2,o3,'k');
       grid on;
       xlabel('Tempo [amostra]','fontsize',18);
