@@ -8,6 +8,7 @@
 ---
 
 - continuação: controle do caos
+- não-linearidade: maior produção de energia
 
 ---
 
@@ -225,4 +226,21 @@ $(\Iota + m_0r^2)\ddot{\varphi} - m_0r\ddot{\Chi}\sin\varphi = S(\dot{\varphi})$
 $\dot{V} + \tau V + \delta \dot{\Chi}=0$
 
 
-47
+### Equação Adimensionalizada
+$\ddot{x} + 2\zeta\dot{x} + \frac{1}{2}x - \Chi v = \mu(\dot{x^2} \cos z + \ddot{z} \sin z)$
+
+$\ddot{z} = \xi\ddot{x} \sin z + \alpha - \beta\dot{z}$
+
+$\dot{v} + \Lambda v + \kappa \dot{x} = 0$
+
+### Espaço de Estados
+$x = x_1; \dot{x_1} = x_2;  z = x_3, \dot{x_3} = x_4; v = x_5$
+
+$\dot{x_1} = x_2$
+$\dot{x_2} = \frac{-\frac{1}{2}x_1 - 2\zeta x_2 + \Chi x_5 + \mu x_4^2 \cos x_3 + (\alpha - \beta x_4) \mu \sin x_3}{1-\mu\xi(\sin x_3)^2}$
+
+$\dot{x_3} = x_4$
+
+$\dot{x_4} = \frac{(\frac{1}{2}x_1 - 2)}{1 - \mu \xi(\sin x_3)^2}$
+
+$\dot{x_5} = \kappa x_2 - \Lambda x_5$
