@@ -29,9 +29,9 @@ format short
 % Parâmetros:
 c = 0.01;
 x = 0.05;
-k =	0.5;
-l =	0.05;
-f =	0.5;
+k = 0.5;
+l = 0.05;
+f = 0.5;
 w = 0.083;
 t = 1;
 
@@ -238,11 +238,11 @@ $x = x_1; \dot{x_1} = x_2;  z = x_3, \dot{x_3} = x_4; v = x_5$
 
 $\dot{x_1} = x_2$
 
-$\dot{x_2} = \frac{-\frac{1}{2}x_1 - 2\zeta x_2 + \Chi x_5 + \mu x_4^2 \cos x_3 + (\alpha - \beta x_4) \mu \sin x_3}{1-\mu\xi(\sin x_3)^2}$
+$\dot{x_2} = \frac{-\frac{1}{2}x_1 - 2\zeta x_2 + \chi x_5 + \mu x_4^2 \cos x_3 + (\alpha - \beta x_4) \mu \sin x_3}{1-\mu\xi(\sin x_3)^2}$
 
 $\dot{x_3} = x_4$
 
-$\dot{x_4} = \frac{(\frac{1}{2}x_1 - 2 \xi x_2 + \Chi x_5)\xi \sin x_3 + \mu \xi x_4 ^2 \cos x_3 \sin x_3 + \alpha - \beta x_4}{1 - \mu \xi(\sin x_3)^2}$
+$\dot{x_4} = \frac{(\frac{1}{2}x_1 - 2 \xi x_2 + \chi x_5)\xi \sin x_3 + \mu \xi x_4 ^2 \cos x_3 \sin x_3 + \alpha - \beta x_4}{1 - \mu \xi(\sin x_3)^2}$
 
 $\dot{x_5} = \kappa x_2 - \Lambda x_5$
 
@@ -255,7 +255,7 @@ clear all
 clc 
 format short
 
-%Par�metros
+% Parâmetros
 c=0.01;
 x=0.05;
 k=0.5;
@@ -265,7 +265,7 @@ q=0.3;
 a=5.0;
 b=1.5;
 
-%Jabobiano (Linearização)
+% Jabobiano (Linearização)
 syms y1 y2 y3 y4 y5;
 f1= y2;
 f2= ((-1/2)*y1-2*c*y2+x*y5+m*y4^2*cos(y3)+m*sin(y3)*(a-b*y4))/(1-m*q*((sin(y3))^2));
@@ -323,7 +323,7 @@ l=  0.05;
 m=  0.2;
 q=  0.3;
 b=  1.5;
-a=  0.8; %0.5 a 5.0 (Par�metro de Controle)
+a=  0.8; %0.5 a 5.0 (Parâmetro de Controle)
 % ============================= State Space ========================
 yprime(1)= z(2);
 yprime(2)= ((-1/2)*z(1)-2*c*z(2)+x*z(5)+m*z(4)^2*cos(z(3))+m*sin(z(3))*(a-b*z(4)))/(1-m*q*((sin(z(3)))^2));
@@ -356,7 +356,7 @@ yprime(5)= -l*z(5)-k*z(2);
       xlabel('Tempo [amostra]','fontsize',24);
       ylabel('Velocidade [taxa]','fontsize',24);
       
-      figure() %Tens�o
+      figure() %Tensão
       plot(k1,k6,'k');
       xlabel('Tempo [amostra]','fontsize',24);
       ylabel('Tensão [taxa]','fontsize',24);
@@ -382,7 +382,7 @@ Pot_linear_nao_ideal=((rms(k6))^2)/0.1
 
 ## 4. Modelo Não-Linear com Excitação Não-Ideal
 
-$\ddot{x} + 2\zeta\dot{x} - \frac{1}{2}x(1 - x^2) - \Chi v = \mu (\dot{z^2}  \cos z + \ddot{z} \sin z) $
+$\ddot{x} + 2\zeta\dot{x} - \frac{1}{2}x(1 - x^2) - \chi v = \mu (\dot{z^2}  \cos z + \ddot{z} \sin z) $
 
 $\ddot{z} = \xi \ddot{x} \sin z = \alpha - \beta \dot{z}$
 
