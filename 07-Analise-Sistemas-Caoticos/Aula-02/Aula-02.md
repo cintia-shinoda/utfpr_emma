@@ -219,15 +219,15 @@ Pot_nao_linear_periodico_muda=((rms(o4))^2)/0.1
 
 ## 3. Modelo Linear com Excitação Não-Ideal
 
-$(m_1 + m_0)\ddot{\Chi} + l\dot{\Chi} + k\Chi = m_0r(\dot{\varphi^2}\cos\varphi + \ddot{\varphi} \sin \varphi)$
+$(m_1 + m_0)\ddot{\chi } + l\dot{\chi} + k\chi = m_0r(\dot{\varphi^2}\cos\varphi + \ddot{\varphi} \sin \varphi)$
 
-$(\Iota + m_0r^2)\ddot{\varphi} - m_0r\ddot{\Chi}\sin\varphi = S(\dot{\varphi})$
+$(I + m_0r^2)\ddot{\varphi} - m_0r\ddot{\chi}\sin\varphi = S(\dot{\varphi})$
 
-$\dot{V} + \tau V + \delta \dot{\Chi}=0$
+$\dot{V} + \tau V + \delta \dot{\chi}=0$
 
 
 ### Equação Adimensionalizada
-$\ddot{x} + 2\zeta\dot{x} + \frac{1}{2}x - \Chi v = \mu(\dot{x^2} \cos z + \ddot{z} \sin z)$
+$\ddot{x} + 2\zeta\dot{x} + \frac{1}{2}x - \chi v = \mu(\dot{x^2} \cos z + \ddot{z} \sin z)$
 
 $\ddot{z} = \xi\ddot{x} \sin z + \alpha - \beta\dot{z}$
 
@@ -377,6 +377,8 @@ yprime(5)= -l*z(5)-k*z(2);
 %P= (Vrms)^2/R
 Pot_linear_nao_ideal=((rms(k6))^2)/0.1
 ```
+---
+
 
 ## 4. Modelo Não-Linear com Excitação Não-Ideal
 
