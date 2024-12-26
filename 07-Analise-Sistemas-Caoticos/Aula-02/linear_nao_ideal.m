@@ -3,7 +3,7 @@ clear all
 clc 
 format short
 
-%Par�metros
+%Parâmetros
 c=0.01;
 x=0.05;
 k=0.5;

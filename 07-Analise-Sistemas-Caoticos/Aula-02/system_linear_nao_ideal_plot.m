@@ -23,7 +23,7 @@
       figure() %Tensão
       plot(k1,k6,'k');
       xlabel('Tempo [amostra]','fontsize',24);
-      ylabel('Tens�o [taxa]','fontsize',24);
+      ylabel('Tensão [taxa]','fontsize',24);
 
       figure() %3D Phase Portrait
       plot3(k1,k2,k3,'k');

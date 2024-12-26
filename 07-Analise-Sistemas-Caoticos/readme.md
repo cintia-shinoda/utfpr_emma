@@ -10,6 +10,6 @@
 |  | Avaliação |  |
 |:---:|:--|:---:|
 | &check; | Trabalho 1 |  |
-|  | Trabalho 2 |  |
+| &check; | Trabalho 2 |  |
 |  | Trabalho 3 |  |
 | **Média** |  | **** |
