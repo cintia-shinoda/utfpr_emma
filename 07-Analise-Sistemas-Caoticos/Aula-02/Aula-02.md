@@ -72,8 +72,10 @@ autovalor =
 
 
 ### Espaço de Estados
-$\dot{x_1} = x_2$
-$\dot{x_2} = \frac{1}{2}x_1(1-x_1^2) - 2\zeta x_2 + \chi x_3 + f \cos \Omega t$
+$\dot{x_1} = x_2$;
+
+$\dot{x_2} = \frac{1}{2}x_1(1-x_1^2) - 2\zeta x_2 + \chi x_3 + f \cos \Omega t$;
+
 $\dot{x_3} = - \Lambda x_3 - \kappa x_2$
 <br>
 
@@ -158,9 +160,9 @@ Pot_nao_linear_periodico=((rms(h4))^2)/0.1
 ```
 
 ##### Mudança nas condições iniciais no tempo 500:
-$x(0) = 1$
-$\dot{x}(1.3)=0$
-$v(0) = 0$
+$x(0) = 1; \\
+\dot{x}(1.3)=0; \\
+v(0) = 0$
 
 
 ```matlab
@@ -234,7 +236,11 @@ $\ddot{z} = \xi\ddot{x} \sin z + \alpha - \beta\dot{z}$
 $\dot{v} + \Lambda v + \kappa \dot{x} = 0$
 
 ### Espaço de Estados
-$x = x_1; \dot{x_1} = x_2;  z = x_3, \dot{x_3} = x_4; v = x_5$
+$x = x_1;\\
+\dot{x_1} = x_2; \\
+z = x_3; \\
+\dot{x_3} = x_4; \\
+v = x_5$
 
 $\dot{x_1} = x_2$
 
@@ -388,6 +394,9 @@ $\ddot{z} = \xi \ddot{x} \sin z = \alpha - \beta \dot{z}$
 
 $\dot{v} + \Lambda v + k\dot{x} = 0$
 
+### Componente Não-Linear
+$-\frac{1}{2}x(1-x^2)$
+
 ### Espaço de Estados
 Adotando:
 $
@@ -400,11 +409,11 @@ $
 
 $\dot{x_1} = x_2$
 
-$\dot{x_2} = \frac{}{1 - \mu \xi(\sin x_3)^2}$
+$\dot{x_2} = \frac{\frac{1}{2}x_1(1-x_1^2)-2\zeta x_2 + \chi x_5 + \mu x_4^2 \cos x_3 + (\alpha - \beta x_4) \mu \sin x_3}{1 - \mu \xi(\sin x_3)^2}$
 
 $\dot{x_3} = x_4$
 
-$\dot{x_4} = \frac{}{1 - \mu \xi (\sin x_3)^2}$
+$\dot{x_4} = \frac{(\frac{1}{2} x_1 (1 - x_1^2) - 2\zeta x_2 + \chi x_5) \xi \sin x_3 + \mu \xi x_4^2 \cos x_3 \sin x_3 + \alpha - \beta x_4}{1 - \mu \xi (\sin x_3)^2}$
 
 $\dot{x_5} = -\kappa x_2 - \Lambda x_5$
 
@@ -416,7 +425,7 @@ clear all
 clc 
 format short
 
-%Parâmetros
+% Parâmetros
 c=0.01;
 x=0.05;
 k=0.5;
@@ -426,7 +435,7 @@ q=0.3;
 a=5.0;
 b=1.5;
   
-%Jabobiano (Linearização)
+% Jabobiano (Linearização)
 syms y1 y2 y3 y4 y5;
 f1= y2;
 f2= ((1/2*y1*(1-y1^2))-2*c*y2+x*y5+m*y4^2*cos(y3)+m*sin(y3)*(a-b*y4))/(1-m*q*((sin(y3))^2));
