@@ -139,21 +139,17 @@ $\dot{x_2} = -\frac{1}{2}x_1 - 2\zeta x_2 + \chi x_3 + f \cos\Omega t$
 $\dot{x_3} = - \kappa x_2 - \Lambda x_3$
 
 #### Runge-Kutta
-$
-\zeta = 0,01 \\
-\Omega = 0,8 \\
-\chi = 0,05 \\
-\kappa = 0,5 \\
-\Lambda = 0,05 \\
-f = 0,08
-$
+$\zeta = 0,01; \\
+\Omega = 0,8; \\
+\chi = 0,05; \\
+\kappa = 0,5; \\
+\Lambda = 0,05; \\
+f = 0,08$
 
 #### Condições iniciais
-$
-x(0) = 1 \\
+$x(0) = 1 \\
 \dot{x}(0) = 0 \\
-v(0) = 0
-$
+v(0) = 0$
 
 <br>
 
