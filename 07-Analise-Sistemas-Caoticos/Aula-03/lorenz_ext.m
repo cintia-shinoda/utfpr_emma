@@ -18,9 +18,9 @@ function f=lorenz_ext(t,X)
 % --------------------------------------------------------------------
 % Copyright (C) 2004, Govorukhin V.N.
 % Values of parameters
-SIGMA = 16;
-R = 45;
-BETA = 4;
+SIGMA = 14;
+R = 35;
+BETA = 5/3;
 x=X(1); y=X(2); z=X(3);
 Y= [X(4), X(7), X(10);
     X(5), X(8), X(11);
