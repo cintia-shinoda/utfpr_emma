@@ -37,6 +37,7 @@ f. São inequações lineares que as variáveis de decisão devem satisfazer: ``
 #### Variáveis de Decisão
 - representação das decisões a serem tomadas
 - valores desconhecidos a serem determinados
+- em Programação Linear Inteira (PLI), devem ser números inteiros
 
 #### Função Objetivo
 - expressa matematicamente o objetivo a ser otimizado
