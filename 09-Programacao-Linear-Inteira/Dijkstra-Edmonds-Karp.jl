@@ -4,8 +4,9 @@ Pkg.add("GraphPlot")
 Pkg.add("Graphs")
 Pkg.add("SimpleWeightedGraphs")
 Pkg.add("GraphRecipes")
+Pkg.add("Colors")
 
-using Plots, GraphPlot, Graphs, SimpleWeightedGraphs, GraphRecipes, Random
+using Plots, GraphPlot, Graphs, SimpleWeightedGraphs, GraphRecipes, Random, Colors
 
 function dijkstra(grafo, origem)
     n = length(grafo[1,:])
