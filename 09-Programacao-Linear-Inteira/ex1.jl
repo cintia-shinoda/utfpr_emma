@@ -37,7 +37,7 @@ function create_model(integrality::Bool)
     end
 
     # Função objetivo
-    @objective(model, Max, x1 + 5x2 + 9x3 + 5x4)
+    @objective(model, Max, 7x1 + 9x2 + x3 + 6x4)
 
     # Restrições
     @constraint(model, x1 + 3x2 + 9x3 + 6x4 <= 16)
