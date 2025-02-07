@@ -13,6 +13,6 @@
 | &check; | Questionário sobre formulação de PPL e Método Gráfico | 8.0 / 8.0 |
 | &check; | Questionário sobre o Método Simplex | 5.0 / 6.0 |
 | &check; | Questionário sobre o Solver do Excel | 9.17 / 10.0 |
-| &check; | Questionário 1 |  |
-|  | Lista de Exercícios |  |
+| &check; | Questionário 1 | - |
+| &check; | Lista de Exercícios | 100.0/100.0 |
 | **Média** |  | **** |

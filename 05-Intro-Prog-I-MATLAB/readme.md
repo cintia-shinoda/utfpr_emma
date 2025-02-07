@@ -7,8 +7,8 @@
 |  | 03 | 14/09/2024 |  |  |
 
 
-|  | Avaliação |  |
+|  | Avaliação | Nota |
 |:---:|:--|:---:|
-| &check; | Lista de Exercícios |  |
-| &check; | Trabalho |  |
+| &check; | Lista de Exercícios | 10.0 / 10.0 |
+| &check; | Trabalho | 9.5 / 10.0 |
 | **Média** |  | **** |
