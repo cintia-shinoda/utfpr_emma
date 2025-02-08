@@ -16,6 +16,7 @@
 |  | 07 | Análise de Sistemas Caóticos | Douglas da Costa Ferreira |  |
 |  | 08 | Séries Temporais | Sheila Regina Oro |  |
 |  | 09 | Programação Linear Inteira | Franklin Angelo Krukoski |  |
+|  | 10 | Métodos Numéricos | Camila Nicola Boeri di Domenico |  |
 
 -----
 
@@ -61,7 +62,7 @@
 
 |  |  | # | Data | Disciplina |
 |:---:|:---:|:---:|:---:|:---|
-|  |  | 28 | 08/02/2025 | Métodos Numéricos - 1 |
+| &check; |  | 28 | 08/02/2025 | Métodos Numéricos - 1 |
 |  |  | 29 | 15/02/2025 | Métodos Numéricos - 2 |
 |  |  | 30 | 22/02/2025 | Métodos Numéricos - 3 |
 |  |  | 31 | 01/03/2025 | Introdução à Programação II - Python - 1 |
