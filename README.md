@@ -15,7 +15,7 @@
 |  | 06 | Equações Diferenciais de Ordem Superior | Douglas da Costa Ferreira |  |
 |  | 07 | Análise de Sistemas Caóticos | Douglas da Costa Ferreira |  |
 |  | 08 | Séries Temporais | Sheila Regina Oro |  |
-|  | 09 | Programação Linear Inteira | Franklin Angelo Krukoski |  |
+| &check; | 09 | Programação Linear Inteira | Franklin Angelo Krukoski | 10 |
 |  | 10 | Métodos Numéricos | Camila Nicola Boeri di Domenico |  |
 
 -----
@@ -63,8 +63,8 @@
 |  |  | # | Data | Disciplina |
 |:---:|:---:|:---:|:---:|:---|
 | &check; |  | 28 | 08/02/2025 | Métodos Numéricos - 1 |
-|  |  | 29 | 15/02/2025 | Métodos Numéricos - 2 |
-|  |  | 30 | 22/02/2025 | Métodos Numéricos - 3 |
+| &check; |  | 29 | 15/02/2025 | Métodos Numéricos - 2 |
+| &check; |  | 30 | 22/02/2025 | Métodos Numéricos - 3 |
 |  |  | 31 | 01/03/2025 | Introdução à Programação II - Python - 1 |
 |  |  | 32 | 08/03/2025 | Introdução à Programação II - Python - 2 |
 |  |  | 33 | 15/03/2025 | Introdução à Programação II - Python - 3 |
