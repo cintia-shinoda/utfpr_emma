@@ -12,11 +12,12 @@
 | &check; | 03 | Análise Multivariada | Sheila Regina Oro | 10 |
 | &check; | 04 | Iniciação à Programação Linear | Eliete Nascimento da Silva | 9.8 |
 |  | 05 | Introdução à Programação I - MATLAB | Edson Luiz Valmorbida |  |
-|  | 06 | Equações Diferenciais de Ordem Superior | Douglas da Costa Ferreira |  |
-|  | 07 | Análise de Sistemas Caóticos | Douglas da Costa Ferreira |  |
+| &check; | 06 | Equações Diferenciais de Ordem Superior | Douglas da Costa Ferreira | 7 |
+| &check; | 07 | Análise de Sistemas Caóticos | Douglas da Costa Ferreira | 8 |
 |  | 08 | Séries Temporais | Sheila Regina Oro |  |
 | &check; | 09 | Programação Linear Inteira | Franklin Angelo Krukoski | 10 |
 |  | 10 | Métodos Numéricos | Camila Nicola Boeri di Domenico |  |
+|  | 11 | Introdução à Programação II - Python | Vilmar Steffen |  |
 
 -----
 
