@@ -49,4 +49,18 @@ $E_{Rel} = \frac{x-\={x}}{x}$
 - Erro relativo percentual: $\varepsilon_{a} = \frac{aproximacao \ atual - aproximacao \ prévia}{aproximacao \ atual} . 100\%$
 
 
-57min
+- repetem-se os cálculos até que o valor absoluto percentual seja MENOR que uma tolerância percentual pré-definida ($\varepsilon_{s}$) 
+$$|\varepsilon_{a}| < \varepsilon_{s}$$
+
+#### Exemplos de influência dos erros nas soluções
+- falha no lançamento de mísseis
+- explosão de foguetes
+- afundamento de plataforma marítima
+
+
+## Soluções Numéricas de Equações Diferenciais
+- PVI
+- discretização
+- na solução numérica, já se parte da condição inicial, dentro de um intervalo
+  - em solução analítica, ignora-se a condição inicial, encontra-se a solução geral, e aplica-se a condição inicial para encontrar a solução particular
+- 
