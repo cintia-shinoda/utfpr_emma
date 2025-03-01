@@ -63,4 +63,22 @@ $$|\varepsilon_{a}| < \varepsilon_{s}$$
 - discretização
 - na solução numérica, já se parte da condição inicial, dentro de um intervalo
   - em solução analítica, ignora-se a condição inicial, encontra-se a solução geral, e aplica-se a condição inicial para encontrar a solução particular
-- 
+  
+
+### Métodos de Passo Simples
+- Método de Euler
+- Método de Euler Modificado
+- Método de Euler Melhorado
+- Método de Runge-Kutta de 3ª Ordem
+- Método de Runge-Kutta de 4ª Ordem
+
+### Método de Passo Múltiplo
+- Método de Adams-Bashforth
+- Método de Adams-Moulton
+- Método de Milne
+
+---
+
+- aumenta a ordem do método, aumenta-se a precisão (diminui-se o erro associado)
+
+1h16
