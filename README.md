@@ -66,7 +66,7 @@
 | &check; |  | 28 | 08/02/2025 | Métodos Numéricos - 1 |
 | &check; |  | 29 | 15/02/2025 | Métodos Numéricos - 2 |
 | &check; |  | 30 | 22/02/2025 | Métodos Numéricos - 3 |
-|  |  | 31 | 01/03/2025 | Introdução à Programação II - Python - 1 |
+| &check; |  | 31 | 01/03/2025 | Introdução à Programação II - Python - 1 |
 |  |  | 32 | 08/03/2025 | Introdução à Programação II - Python - 2 |
 |  |  | 33 | 15/03/2025 | Introdução à Programação II - Python - 3 |
 |  |  | 34 | 22/03/2025 | Metaheurísticas e Aplicações - 1  |
