@@ -7,17 +7,17 @@
 
 |  | # | Disciplina | Professor(a) | Média |
 |:---:|:---:|:---|:---|:---:|
-| &check; | 01 | Cálculo de Funções de Uma Variável Real | Edson Luiz Valmorbida | 9.3 |
-| &check; | 02 | Equações Diferenciais Ordinárias | Camila Nicola Boeri di Domenico | 8 |
-| &check; | 03 | Análise Multivariada | Sheila Regina Oro | 10 |
-| &check; | 04 | Iniciação à Programação Linear | Eliete Nascimento da Silva | 9.8 |
-|  | 05 | Introdução à Programação I - MATLAB | Edson Luiz Valmorbida |  |
-| &check; | 06 | Equações Diferenciais de Ordem Superior | Douglas da Costa Ferreira | 7 |
-| &check; | 07 | Análise de Sistemas Caóticos | Douglas da Costa Ferreira | 8 |
-|  | 08 | Séries Temporais | Sheila Regina Oro |  |
-| &check; | 09 | Programação Linear Inteira | Franklin Angelo Krukoski | 10 |
-|  | 10 | Métodos Numéricos | Camila Nicola Boeri di Domenico |  |
-|  | 11 | Introdução à Programação II - Python | Vilmar Steffen |  |
+| &check; | 01 | [Cálculo de Funções de Uma Variável Real](https://github.com/cintia-shinoda/utfpr_emma/tree/main/01-Calculo-Funcoes-1-Variavel-Real) | Edson Luiz Valmorbida | 9.3 |
+| &check; | 02 | [Equações Diferenciais Ordinárias](https://github.com/cintia-shinoda/utfpr_emma/tree/main/02-Equacoes-Diferenciais-Ordinarias) | Camila Nicola Boeri di Domenico | 8 |
+| &check; | 03 | [Análise Multivariada](https://github.com/cintia-shinoda/utfpr_emma/tree/main/03-Analise-Multivariada) | Sheila Regina Oro | 10 |
+| &check; | 04 | [Iniciação à Programação Linear](https://github.com/cintia-shinoda/utfpr_emma/tree/main/04-Iniciacao-Programacao-Linear) | Eliete Nascimento da Silva | 9.8 |
+|  | 05 | [Introdução à Programação I - MATLAB](https://github.com/cintia-shinoda/utfpr_emma/tree/main/05-Intro-Prog-I-MATLAB) | Edson Luiz Valmorbida |  |
+| &check; | 06 | [Equações Diferenciais de Ordem Superior](https://github.com/cintia-shinoda/utfpr_emma/tree/main/06-Equacoes-Diferenciais-Ordem-Superior) | Douglas da Costa Ferreira | 7 |
+| &check; | 07 | [Análise de Sistemas Caóticos](https://github.com/cintia-shinoda/utfpr_emma/tree/main/07-Analise-Sistemas-Caoticos) | Douglas da Costa Ferreira | 8 |
+|  | 08 | [Séries Temporais](https://github.com/cintia-shinoda/utfpr_emma/tree/main/08-Series-Temporais) | Sheila Regina Oro |  |
+| &check; | 09 | [Programação Linear Inteira](https://github.com/cintia-shinoda/utfpr_emma/tree/main/09-Programacao-Linear-Inteira) | Franklin Angelo Krukoski | 10 |
+|  | 10 | [Métodos Numéricos](https://github.com/cintia-shinoda/utfpr_emma/tree/main/10-Metodos-Numericos) | Camila Nicola Boeri di Domenico |  |
+|  | 11 | [Introdução à Programação II - Python](https://github.com/cintia-shinoda/utfpr_emma/tree/main/11-Intro-Prog-II-Python) | Vilmar Steffen |  |
 
 -----
 

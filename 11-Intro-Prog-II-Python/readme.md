@@ -7,16 +7,16 @@
 |  | 03 |  | <ul><li>[] 9. Apresentação Gráfica de Dados (2D)</li><li>[] 10. Funções, Módulos e Pacotes</li></ul> |
 
 
-|  | Avaliação | Data |  |
-|:---:|:--|:---:|:---:|
-|  | Questionário 1 |  |  |
-|  | Questionário 2 |  |  |
-|  | Questionário 3 |  |  |
-|  | Questionário 4 |  |  |
-|  | Questionário 5 |  |  |
-|  | Questionário 6 |  |  |
-|  | Questionário 7 |  |  |
-|  | Questionário 8 |  |  |
-|  | Questionário 9 |  |  |
-|  | Questionário 10 |  |  |
+|  | Avaliação |  |
+|:---:|:--|:---:|
+|  | Questionário 1 |  |
+|  | Questionário 2 |  |
+|  | Questionário 3 |  |
+|  | Questionário 4 |  |
+|  | Questionário 5 |  |
+|  | Questionário 6 |  |
+|  | Questionário 7 |  |
+|  | Questionário 8 |  |
+|  | Questionário 9 |  |
+|  | Questionário 10 |  |
 | **Média** |  |  | **** |
