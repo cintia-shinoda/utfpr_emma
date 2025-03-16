@@ -9,5 +9,8 @@
 
 |  | Avaliação | Data |  |
 |:---:|:--|:---:|:---:|
-|  | Atividade 1 | 28/02/2025 |  |
+| &check; | Atividade 1 | 28/02/2025 |  |
+| &check; | Atividade 2 |  |  |
+| &check; | Atividade 3 |  |  |
+| &check; | Lista |  |  |
 | **Média** |  |  | **** |
