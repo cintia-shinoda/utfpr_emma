@@ -18,6 +18,7 @@
 | &check; | 09 | [Programação Linear Inteira](https://github.com/cintia-shinoda/utfpr_emma/tree/main/09-Programacao-Linear-Inteira) | Franklin Angelo Krukoski | 10 |
 |  | 10 | [Métodos Numéricos](https://github.com/cintia-shinoda/utfpr_emma/tree/main/10-Metodos-Numericos) | Camila Nicola Boeri di Domenico |  |
 |  | 11 | [Introdução à Programação II - Python](https://github.com/cintia-shinoda/utfpr_emma/tree/main/11-Intro-Prog-II-Python) | Vilmar Steffen |  |
+|  | 12 | [Equações Diferenciais Parciais](https://github.com/cintia-shinoda/utfpr_emma/tree/main/12-Equacoes-Diferenciais-Parciais) | Vilmar Steffen |  |
 
 -----
 
@@ -69,12 +70,12 @@
 | &check; |  | 31 | 01/03/2025 | Introdução à Programação II - Python - 1 |
 | &check; |  | 32 | 08/03/2025 | Introdução à Programação II - Python - 2 |
 | &check; |  | 33 | 15/03/2025 | Introdução à Programação II - Python - 3 |
-|  |  | 34 | 22/03/2025 | Metaheurísticas e Aplicações - 1  |
-|  |  | 35 | 29/03/2025 | Metaheurísticas e Aplicações - 2 |
-|  |  | 36 | 05/04/2025 | Metaheurísticas e Aplicações - 3 |
-|  |  | 37 | 12/04/2025 | Equações Diferenciais Parciais - 1 |
-|  |  | 38 | 19/04/2025 | Equações Diferenciais Parciais - 2 |
-|  |  | 39 | 26/04/2025 | Equações Diferenciais Parciais - 3 |
+|  |  | 34 | 22/03/2025 | Equações Diferenciais Parciais - 1  |
+|  |  | 35 | 29/03/2025 | Equações Diferenciais Parciais - 2 |
+|  |  | 36 | 05/04/2025 | Equações Diferenciais Parciais - 3 |
+|  |  | 37 | 12/04/2025 | Metaheurísticas e Aplicações - 1 |
+|  |  | 38 | 19/04/2025 | Metaheurísticas e Aplicações - 2 |
+|  |  | 39 | 26/04/2025 | Metaheurísticas e Aplicações - 3 |
 |  |  | 40 | 03/05/2025 | Análise de Decisão Multicritério - 1 |
 |  |  | 41 | 10/05/2025 | Análise de Decisão Multicritério - 2 |
 |  |  | 42 | 17/05/2025 | Análise de Decisão Multicritério - 3 |
