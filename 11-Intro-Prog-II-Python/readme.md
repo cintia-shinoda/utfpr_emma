@@ -9,8 +9,8 @@
 
 |  | Avaliação |  |
 |:---:|:--|:---:|
-|  | Questionário 1 |  |
-|  | Questionário 2 |  |
+|  | Questionário 1 | 10.0 |
+|  | Questionário 2 | 9.0 |
 |  | Questionário 3 |  |
 |  | Questionário 4 |  |
 |  | Questionário 5 |  |
