@@ -17,6 +17,6 @@
 | &check; | Questionário 6 | 10.0 |
 | &check; | Questionário 7 | 10.0 |
 | &check; | Questionário 8 | 10.0 |
-|  | Questionário 9 |  |
-|  | Questionário 10 |  |
-| **Média** |  |  | **** |
+| &check; | Questionário 9 | 10.0 |
+| &check; | Questionário 10 | 10.0 |
+| **Média** |  | **9.9** |
