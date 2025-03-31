@@ -17,7 +17,7 @@
 |  | 08 | [Séries Temporais](https://github.com/cintia-shinoda/utfpr_emma/tree/main/08-Series-Temporais) | Sheila Regina Oro |  |
 | &check; | 09 | [Programação Linear Inteira](https://github.com/cintia-shinoda/utfpr_emma/tree/main/09-Programacao-Linear-Inteira) | Franklin Angelo Krukoski | 10 |
 |  | 10 | [Métodos Numéricos](https://github.com/cintia-shinoda/utfpr_emma/tree/main/10-Metodos-Numericos) | Camila Nicola Boeri di Domenico |  |
-|  | 11 | [Introdução à Programação II - Python](https://github.com/cintia-shinoda/utfpr_emma/tree/main/11-Intro-Prog-II-Python) | Vilmar Steffen |  |
+| &check; | 11 | [Introdução à Programação II - Python](https://github.com/cintia-shinoda/utfpr_emma/tree/main/11-Intro-Prog-II-Python) | Vilmar Steffen | 9.9 |
 |  | 12 | [Equações Diferenciais Parciais](https://github.com/cintia-shinoda/utfpr_emma/tree/main/12-Equacoes-Diferenciais-Parciais) | Vilmar Steffen |  |
 
 -----
