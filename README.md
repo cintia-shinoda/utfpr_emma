@@ -72,7 +72,7 @@
 | &check; |  | 33 | 15/03/2025 | Introdução à Programação II - Python - 3 |
 | &check; |  | 34 | 22/03/2025 | Equações Diferenciais Parciais - 1  |
 | &check; |  | 35 | 29/03/2025 | Equações Diferenciais Parciais - 2 |
-|  |  | 36 | 05/04/2025 | Equações Diferenciais Parciais - 3 |
+| &check; |  | 36 | 05/04/2025 | Equações Diferenciais Parciais - 3 |
 |  |  | 37 | 12/04/2025 | Metaheurísticas e Aplicações - 1 |
 |  |  | 38 | 19/04/2025 | Metaheurísticas e Aplicações - 2 |
 |  |  | 39 | 26/04/2025 | Metaheurísticas e Aplicações - 3 |
