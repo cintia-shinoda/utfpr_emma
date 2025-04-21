@@ -74,8 +74,8 @@
 | &check; |  | 35 | 29/03/2025 | Equações Diferenciais Parciais - 2 |
 | &check; |  | 36 | 05/04/2025 | Equações Diferenciais Parciais - 3 |
 | &check; |  | 37 | 12/04/2025 | Metaheurísticas e Aplicações - 1 |
-|  |  | 38 | 19/04/2025 | Metaheurísticas e Aplicações - 2 |
-|  |  | 39 | 26/04/2025 | Metaheurísticas e Aplicações - 3 |
-|  |  | 40 | 03/05/2025 | Análise de Decisão Multicritério - 1 |
-|  |  | 41 | 10/05/2025 | Análise de Decisão Multicritério - 2 |
-|  |  | 42 | 17/05/2025 | Análise de Decisão Multicritério - 3 |
+|  |  | 38 | 26/04/2025 | Metaheurísticas e Aplicações - 2 |
+|  |  | 39 | 03/05/2025 | Metaheurísticas e Aplicações - 3 |
+|  |  | 40 | 10/05/2025 | Análise de Decisão Multicritério - 1 |
+|  |  | 41 | 17/05/2025 | Análise de Decisão Multicritério - 2 |
+|  |  | 42 | 24/05/2025 | Análise de Decisão Multicritério - 3 |
