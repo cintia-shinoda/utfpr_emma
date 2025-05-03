@@ -19,6 +19,8 @@
 |  | 10 | [Métodos Numéricos](https://github.com/cintia-shinoda/utfpr_emma/tree/main/10-Metodos-Numericos) | Camila Nicola Boeri di Domenico |  |
 | &check; | 11 | [Introdução à Programação II - Python](https://github.com/cintia-shinoda/utfpr_emma/tree/main/11-Intro-Prog-II-Python) | Vilmar Steffen | 9.9 |
 |  | 12 | [Equações Diferenciais Parciais](https://github.com/cintia-shinoda/utfpr_emma/tree/main/12-Equacoes-Diferenciais-Parciais) | Vilmar Steffen |  |
+|  | 13 | [Metaheurísticas e Aplicações](https://github.com/cintia-shinoda/utfpr_emma/tree/main/13-Metaheuristicas-e-Aplicacoes) | Franklin Angelo Krukoski |  |
+|  | 14 | [Análise de Decisão Multicritério](https://github.com/cintia-shinoda/utfpr_emma/tree/main/14-Analise-Decisao-Multicriterio) | Eliete Nascimento da Silva |  |
 
 -----
 
@@ -76,6 +78,6 @@
 | &check; |  | 37 | 12/04/2025 | Metaheurísticas e Aplicações - 1 |
 | &check; |  | 38 | 26/04/2025 | Metaheurísticas e Aplicações - 2 |
 |  |  | 39 | 03/05/2025 | Metaheurísticas e Aplicações - 3 |
-|  |  | 40 | 10/05/2025 | Análise de Decisão Multicritério - 1 |
-|  |  | 41 | 17/05/2025 | Análise de Decisão Multicritério - 2 |
-|  |  | 42 | 24/05/2025 | Análise de Decisão Multicritério - 3 |
+| &check; |  | 40 | 03/05/2025 | Análise de Decisão Multicritério - 1 |
+|  |  | 41 | 10/05/2025 | Análise de Decisão Multicritério - 2 |
+|  |  | 42 | 17/05/2025 | Análise de Decisão Multicritério - 3 |

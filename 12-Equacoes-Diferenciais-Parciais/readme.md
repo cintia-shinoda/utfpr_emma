@@ -9,8 +9,8 @@
 ## Avaliação
 |  |  |  |
 |:---:|:---:|:---:|
-| &check; | Questionário 1 | 100/100 |
-| &check; | Questionário 2 | 100/100 |
-|  | Questionário 3 |  |
-|  | Questionário 4 |  |
-| Média |  |  |
+| &check; | Questionário 1 | 10/10 |
+| &check; | Questionário 2 | 10/10 |
+| &check; | Questionário 3 | 10/10 |
+| &check; | Questionário 4 | 9/10 |
+| Média |  | 9,75 |
