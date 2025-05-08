@@ -11,7 +11,7 @@
 | &check; | 02 | [Equações Diferenciais Ordinárias](https://github.com/cintia-shinoda/utfpr_emma/tree/main/02-Equacoes-Diferenciais-Ordinarias) | Camila Nicola Boeri di Domenico | 8 |
 | &check; | 03 | [Análise Multivariada](https://github.com/cintia-shinoda/utfpr_emma/tree/main/03-Analise-Multivariada) | Sheila Regina Oro | 10 |
 | &check; | 04 | [Iniciação à Programação Linear](https://github.com/cintia-shinoda/utfpr_emma/tree/main/04-Iniciacao-Programacao-Linear) | Eliete Nascimento da Silva | 9.8 |
-|  | 05 | [Introdução à Programação I - MATLAB](https://github.com/cintia-shinoda/utfpr_emma/tree/main/05-Intro-Prog-I-MATLAB) | Edson Luiz Valmorbida |  |
+|  | 05 | [Introdução à Programação I - MATLAB](https://github.com/cintia-shinoda/utfpr_emma/tree/main/05-Intro-Prog-I-MATLAB) | Edson Luiz Valmorbida | 9.7 |
 | &check; | 06 | [Equações Diferenciais de Ordem Superior](https://github.com/cintia-shinoda/utfpr_emma/tree/main/06-Equacoes-Diferenciais-Ordem-Superior) | Douglas da Costa Ferreira | 7 |
 | &check; | 07 | [Análise de Sistemas Caóticos](https://github.com/cintia-shinoda/utfpr_emma/tree/main/07-Analise-Sistemas-Caoticos) | Douglas da Costa Ferreira | 8 |
 |  | 08 | [Séries Temporais](https://github.com/cintia-shinoda/utfpr_emma/tree/main/08-Series-Temporais) | Sheila Regina Oro |  |
@@ -77,7 +77,7 @@
 | &check; |  | 36 | 05/04/2025 | Equações Diferenciais Parciais - 3 |
 | &check; |  | 37 | 12/04/2025 | Metaheurísticas e Aplicações - 1 |
 | &check; |  | 38 | 26/04/2025 | Metaheurísticas e Aplicações - 2 |
-|  |  | 39 | 03/05/2025 | Metaheurísticas e Aplicações - 3 |
+| &check; |  | 39 | 03/05/2025 | Metaheurísticas e Aplicações - 3 |
 | &check; |  | 40 | 03/05/2025 | Análise de Decisão Multicritério - 1 |
 |  |  | 41 | 10/05/2025 | Análise de Decisão Multicritério - 2 |
 |  |  | 42 | 17/05/2025 | Análise de Decisão Multicritério - 3 |
