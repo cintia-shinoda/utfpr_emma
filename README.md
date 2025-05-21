@@ -14,7 +14,7 @@
 | &check; | 05 | [Introdução à Programação I - MATLAB](https://github.com/cintia-shinoda/utfpr_emma/tree/main/05-Intro-Prog-I-MATLAB) | Edson Luiz Valmorbida | 9.7 |
 | &check; | 06 | [Equações Diferenciais de Ordem Superior](https://github.com/cintia-shinoda/utfpr_emma/tree/main/06-Equacoes-Diferenciais-Ordem-Superior) | Douglas da Costa Ferreira | 7 |
 | &check; | 07 | [Análise de Sistemas Caóticos](https://github.com/cintia-shinoda/utfpr_emma/tree/main/07-Analise-Sistemas-Caoticos) | Douglas da Costa Ferreira | 8 |
-|  | 08 | [Séries Temporais](https://github.com/cintia-shinoda/utfpr_emma/tree/main/08-Series-Temporais) | Sheila Regina Oro |  |
+| &check; | 08 | [Séries Temporais](https://github.com/cintia-shinoda/utfpr_emma/tree/main/08-Series-Temporais) | Sheila Regina Oro | 10 |
 | &check; | 09 | [Programação Linear Inteira](https://github.com/cintia-shinoda/utfpr_emma/tree/main/09-Programacao-Linear-Inteira) | Franklin Angelo Krukoski | 10 |
 |  | 10 | [Métodos Numéricos](https://github.com/cintia-shinoda/utfpr_emma/tree/main/10-Metodos-Numericos) | Camila Nicola Boeri di Domenico |  |
 | &check; | 11 | [Introdução à Programação II - Python](https://github.com/cintia-shinoda/utfpr_emma/tree/main/11-Intro-Prog-II-Python) | Vilmar Steffen | 9.9 |
