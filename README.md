@@ -79,5 +79,5 @@
 | &check; |  | 38 | 26/04/2025 | Metaheurísticas e Aplicações - 2 |
 | &check; |  | 39 | 03/05/2025 | Metaheurísticas e Aplicações - 3 |
 | &check; |  | 40 | 03/05/2025 | Análise de Decisão Multicritério - 1 |
-|  |  | 41 | 10/05/2025 | Análise de Decisão Multicritério - 2 |
+| &check; |  | 41 | 10/05/2025 | Análise de Decisão Multicritério - 2 |
 |  |  | 42 | 17/05/2025 | Análise de Decisão Multicritério - 3 |
