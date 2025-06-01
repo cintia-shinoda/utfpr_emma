@@ -107,7 +107,7 @@ Qual a função do Elitismo em um Algoritmo Genético?
 #### Questão 9
 Por que as Meta-heurísticas são frequentemente utilizadas em problemas de otimização do mundo real?
 
-[x] a. Porque muitos problemas reais são NP-difíceis, possuem espaços de busca vastos e complexos (não-convexos, multimodais), tornando métodos exatos inviáveis.
+[x] **a. Porque muitos problemas reais são NP-difíceis, possuem espaços de busca vastos e complexos (não-convexos, multimodais), tornando métodos exatos inviáveis.**
 
 [ ] b. Porque a codificação de uma meta-heurística é inerentemente mais simples e requer menos linhas de código do que a implementação de qualquer método exato ou heurística específica.
 
@@ -120,7 +120,7 @@ Por que as Meta-heurísticas são frequentemente utilizadas em problemas de otim
 #### Questão 10
 Como são classificadas as meta-heurísticas Simulated Annealing (SA) e Busca Tabu (TS) quanto à estratégia de busca predominante?
 
-[x] a. São exemplos de meta-heurísticas baseadas em trajetória (Single-Solution), focadas em modificar e melhorar iterativamente uma única solução candidata.
+[x] **a. São exemplos de meta-heurísticas baseadas em trajetória (Single-Solution), focadas em modificar e melhorar iterativamente uma única solução candidata.**
 
 [ ] b. São classificadas como algoritmos baseados em população, pois mantêm e evoluem um grande conjunto de soluções candidatas simultaneamente a cada iteração.
 
