@@ -10,4 +10,5 @@
 
 |  | Atividade | Nota |
 |:---:|:---:|:---:|
-| &check; | Atividade 1 |  |
+| &check; | Atividade 1 | 100 / 100 |
+|  | Atividade 2 |  |
