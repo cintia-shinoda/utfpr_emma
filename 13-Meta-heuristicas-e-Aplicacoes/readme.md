@@ -1,18 +1,19 @@
-# Metaheurísticas e Aplicações
+# Meta-heurísticas e Aplicações
 
 |  | # | Data | Conteúdo |
 |:---:|:---:|:---:|:---|
-|  | 01 | 12/04/2025 |  |
-|  | 02 | 26/04/2025 |  |
-|  | 03 | 03/05/2025 |  |
+|  | 01 | 12/04/2025 | Introdução às Meta-heurísticas e Algoritmos Genéticos |
+|  | 02 | 26/04/2025 | Meta-heurísticas Populares: PSO, Busca Tabu e ACO |
+|  | 03 | 03/05/2025 | Aplicações |
+
 
 ## Avaliação
 
 |  | Questionário | Nota |
 |:---:|:---:|:---:|
-|  | 1 |  |
-|  | 2 |  |
-|  | 3 |  |
+| &check; | Questionário 1 | 10 / 10 |
+| &check; | Questionário 2 | 10 / 10 |
+| &check; | Questionário 3 | 10 / 10 |
 
 A avaliação da disciplina será da seguinte forma: 
 
