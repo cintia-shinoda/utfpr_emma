@@ -1,5 +1,11 @@
 # Especialização em Métodos Matemáticos Aplicados
 
+![GitHub last commit](https://img.shields.io/github/last-commit/cintia-shinoda/utfpr_emma)
+
+![GitHub forks](https://img.shields.io/github/forks/cintia-shinoda/utfpr_emma)
+
+![GitHub stars](https://img.shields.io/github/stars/cintia-shinoda/utfpr_emma)
+
 -----
 
 
@@ -21,6 +27,7 @@
 | &check; | 12 | [Equações Diferenciais Parciais](https://github.com/cintia-shinoda/utfpr_emma/tree/main/12-Equacoes-Diferenciais-Parciais) | Vilmar Steffen | 9.8 |
 |  | 13 | [Metaheurísticas e Aplicações](https://github.com/cintia-shinoda/utfpr_emma/tree/main/13-Metaheuristicas-e-Aplicacoes) | Franklin Angelo Krukoski |  |
 |  | 14 | [Análise de Decisão Multicritério](https://github.com/cintia-shinoda/utfpr_emma/tree/main/14-Analise-Decisao-Multicriterio) | Eliete Nascimento da Silva |  |
+|  |  | **Coeficiente de Rendimento** |  | **0.9740** |
 
 -----
 
