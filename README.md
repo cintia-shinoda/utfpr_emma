@@ -4,9 +4,9 @@
   <img src="https://img.shields.io/github/last-commit/cintia-shinoda/utfpr_emma" alt="GitHub Last Commit" />
   <img src="https://img.shields.io/github/forks/cintia-shinoda/utfpr_emma" alt="GitHub Forks" />
   <img src="https://img.shields.io/github/stars/cintia-shinoda/utfpr_emma" alt="GitHub Stars" />
+  <img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/cintia-shinoda/utfpr_emma/main/clones.json&label=clones" alt="GitHub Clones" />
 </p>
 
------
 
 
 ## Disciplinas
@@ -22,7 +22,7 @@
 | &check; | 07 | [Análise de Sistemas Caóticos](https://github.com/cintia-shinoda/utfpr_emma/tree/main/07-Analise-Sistemas-Caoticos) | Douglas da Costa Ferreira | 8 |
 | &check; | 08 | [Séries Temporais](https://github.com/cintia-shinoda/utfpr_emma/tree/main/08-Series-Temporais) | Sheila Regina Oro | 10 |
 | &check; | 09 | [Programação Linear Inteira](https://github.com/cintia-shinoda/utfpr_emma/tree/main/09-Programacao-Linear-Inteira) | Franklin Angelo Krukoski | 10 |
-|  | 10 | [Métodos Numéricos](https://github.com/cintia-shinoda/utfpr_emma/tree/main/10-Metodos-Numericos) | Camila Nicola Boeri di Domenico |  |
+| &check; | 10 | [Métodos Numéricos](https://github.com/cintia-shinoda/utfpr_emma/tree/main/10-Metodos-Numericos) | Camila Nicola Boeri di Domenico | 9 |
 | &check; | 11 | [Introdução à Programação II - Python](https://github.com/cintia-shinoda/utfpr_emma/tree/main/11-Intro-Prog-II-Python) | Vilmar Steffen | 9.9 |
 | &check; | 12 | [Equações Diferenciais Parciais](https://github.com/cintia-shinoda/utfpr_emma/tree/main/12-Equacoes-Diferenciais-Parciais) | Vilmar Steffen | 9.8 |
 |  | 13 | [Metaheurísticas e Aplicações](https://github.com/cintia-shinoda/utfpr_emma/tree/main/13-Metaheuristicas-e-Aplicacoes) | Franklin Angelo Krukoski |  |
@@ -32,7 +32,7 @@
 -----
 
 
-## Calendário
+## Cronograma
 ### ```2024```
 
 
