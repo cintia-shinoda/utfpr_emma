@@ -23,7 +23,14 @@ jobs:
 
       - name: Update clones.json
         run: |
-          echo "{\"clones\":${{ steps.get_clones.outputs.clones }}}" > clones.json
+          cat <<EOF > clones.json
+          {
+            "schemaVersion": 1,
+            "label": "clones",
+            "message": "${{ steps.get_clones.outputs.clones }}",
+            "color": "blue"
+          }
+          EOF
 
       - name: Commit and push
         run: |
