@@ -1,10 +1,10 @@
 # Especialização em Métodos Matemáticos Aplicados
 
-![GitHub last commit](https://img.shields.io/github/last-commit/cintia-shinoda/utfpr_emma)
-
-![GitHub forks](https://img.shields.io/github/forks/cintia-shinoda/utfpr_emma)
-
-![GitHub stars](https://img.shields.io/github/stars/cintia-shinoda/utfpr_emma)
+<p align="center">
+  <img src="https://img.shields.io/github/last-commit/cintia-shinoda/utfpr_emma" alt="GitHub Last Commit" />
+  <img src="https://img.shields.io/github/forks/cintia-shinoda/utfpr_emma" alt="GitHub Forks" />
+  <img src="https://img.shields.io/github/stars/cintia-shinoda/utfpr_emma" alt="GitHub Stars" />
+</p>
 
 -----
 
