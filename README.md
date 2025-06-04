@@ -4,9 +4,8 @@
   <img src="https://img.shields.io/github/last-commit/cintia-shinoda/utfpr_emma" alt="GitHub Last Commit" />
   <img src="https://img.shields.io/github/forks/cintia-shinoda/utfpr_emma" alt="GitHub Forks" />
   <img src="https://img.shields.io/github/stars/cintia-shinoda/utfpr_emma" alt="GitHub Stars" />
-  <img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/cintia-shinoda/utfpr_emma/main/clones.json" alt="GitHub Clones" />
 </p>
-
+ioiuo0p-[=oiiol]
 
 
 ## Disciplinas
