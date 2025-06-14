@@ -5,7 +5,6 @@
   <img src="https://img.shields.io/github/forks/cintia-shinoda/utfpr_emma" alt="GitHub Forks" />
   <img src="https://img.shields.io/github/stars/cintia-shinoda/utfpr_emma" alt="GitHub Stars" />
 </p>
-ioiuo0p-[=oiiol]
 
 
 ## Disciplinas
@@ -92,7 +91,7 @@ ioiuo0p-[=oiiol]
 
 
 
-Copyright 2024-2025 Cintia Izumi Shinoda
+Copyright 2024-2025 Cintia I. Shinoda
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
