@@ -25,7 +25,7 @@
 | &check; | 12 | [Equações Diferenciais Parciais](https://github.com/cintia-shinoda/utfpr_emma/tree/main/12-Equacoes-Diferenciais-Parciais) | Vilmar Steffen | 9.8 |
 | &check; | 13 | [Metaheurísticas e Aplicações](https://github.com/cintia-shinoda/utfpr_emma/tree/main/13-Metaheuristicas-e-Aplicacoes) | Franklin Angelo Krukoski | 10 |
 | &check; | 14 | [Análise de Decisão Multicritério](https://github.com/cintia-shinoda/utfpr_emma/tree/main/14-Analise-Decisao-Multicriterio) | Eliete Nascimento da Silva | 10 |
-|  |  | **Coeficiente de Rendimento** |  | **0.9740** |
+|  |  | **Coeficiente de Rendimento** |  | **0.9321** |
 
 -----
 
